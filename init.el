@@ -13,13 +13,28 @@
 
 (package-initialize)
 
+(require 'use-package)
+
 ;;
 ;; EMACS CONFIGURATIONS
 ;;
 (setq make-backup-files nil)
+(setq column-number-mode t)
 (setq-default fill-column 80)
 (setq-default indent-tabs-mode nil)
+
 (setq js-indent-level 2)
+(setq css-indent-offset 2)
+
+;;
+;; MODES CONFIG
+;;
+(add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js-mode))
+
+;;
+;; HOOKS CONFIG
+;;
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;;
 ;; CUSTOM FUNCTIONS
@@ -29,15 +44,37 @@
 
 ;;
 ;; GENERAL KEYBINDINGS
-;; 
+;;
 (global-set-key (kbd "M-n") 'forward-paragraph)
 (global-set-key (kbd "M-p") 'backward-paragraph)
+(global-set-key (kbd "C-x g") 'magit-status)
+
+;;
+;; ACE WINDOW - better window movement
+;;
+(global-set-key (kbd "M-o") 'ace-window)
+(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
+(setq aw-background nil)
+(setq aw-dispatch-always t)
+
+;;
+;; AUTOCOMPLETE
+;;
+(require 'auto-complete)
+(ac-config-default)
 
 ;;
 ;; WINDMOVE - better window movement
-;; 
+;;
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
+
+;;
+;; WRAP-REGION - surround regions with ", ', (, etc.
+;;
+(require 'wrap-region)
+(add-hook 'text-mode-hook (lambda () (wrap-region-mode t)))
+(add-hook 'prog-mode-hook (lambda () (wrap-region-mode t)))
 
 ;;
 ;; EXEC-PATH-FROM-SHELL - get environment variables from the shell
@@ -63,7 +100,27 @@
 ;;
 ;; ESS - gotta have r highlighting
 ;;
+(setq ess-default-style 'RStudio)
 (use-package ess
              :ensure t
              :init (require 'ess-site))
+(ess-toggle-underscore nil)
 
+;;
+;; ADDED AUTOMATICALY
+;;
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(put 'upcase-region 'disabled nil)
