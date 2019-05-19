@@ -20,6 +20,7 @@
 ;;
 (setq make-backup-files nil)
 (setq column-number-mode t)
+(setq dired-listing-switches "-alh")
 (setq-default fill-column 80)
 (setq-default indent-tabs-mode nil)
 
@@ -29,7 +30,10 @@
 ;;
 ;; MODES CONFIG
 ;;
-(add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js-mode))
+(add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . ng2-mode))
+
 
 ;;
 ;; HOOKS CONFIG
@@ -102,9 +106,29 @@
 ;;
 (setq ess-default-style 'RStudio)
 (use-package ess
-             :ensure t
-             :init (require 'ess-site))
+  :ensure t
+  :init (require 'ess-site))
 (ess-toggle-underscore nil)
+(setq ess-roxy-fontify-examples nil)
+(setq ess-roxy-str "#'")
+
+;;
+;; LOREM IPSUM -
+;;
+(require 'lorem-ipsum)
+(lorem-ipsum-use-default-bindings)
+
+;;
+;; MARKDOWN MODE
+;;
+(use-package markdown-mode
+  :ensure t
+  :commands (markdown-mode gfm-mode)
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  :init (setq markdown-command "pandoc"))
+
 
 ;;
 ;; ADDED AUTOMATICALY
@@ -116,7 +140,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
+    (edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -124,3 +148,4 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
