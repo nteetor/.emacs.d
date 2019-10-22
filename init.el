@@ -18,7 +18,10 @@
 ;;
 ;; EMACS CONFIGURATIONS
 ;;
+(setq linum-format "%4d \u2502 ")
+(global-linum-mode t)
 (setq make-backup-files nil)
+(global-auto-revert-mode t)
 (setq column-number-mode t)
 (setq dired-listing-switches "-alh")
 (setq-default fill-column 80)
@@ -30,10 +33,8 @@
 ;;
 ;; MODES CONFIG
 ;;
-(add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js2-mode))
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . ng2-mode))
-
+(add-to-list 'auto-mode-alist '("\\.md" . poly-markdown-mode))
 
 ;;
 ;; HOOKS CONFIG
@@ -52,6 +53,23 @@
 (global-set-key (kbd "M-n") 'forward-paragraph)
 (global-set-key (kbd "M-p") 'backward-paragraph)
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;;
+;; JS2 MODE
+;;
+(require 'js2-mode)
+(require 'xref-js2)
+
+(add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+
+(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+
+(define-key js-mode-map (kbd "M-.") nil)
+(add-hook 'js2-mode-hook (lambda ()
+  (add-hook 'xref-backend-functions #'xref-js2-xref-backend nil t)))
+
+(setq js2-strict-missing-semi-warning nil)
 
 ;;
 ;; ACE WINDOW - better window movement
@@ -140,7 +158,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
+    (poly-R poly-markdown polymode nodejs-repl ag xref-js2 edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
