@@ -26,9 +26,12 @@
 (setq dired-listing-switches "-alh")
 (setq-default fill-column 80)
 (setq-default indent-tabs-mode nil)
-
 (setq js-indent-level 2)
 (setq css-indent-offset 2)
+
+;; window split
+(load-file "~/.emacs.d/split-window-sensibly.el")
+(setq split-window-preferred-function 'split-window-really-sensibly)
 
 ;;
 ;; MODES CONFIG

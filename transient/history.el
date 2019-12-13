@@ -6,4 +6,7 @@
   ("-n256" "--graph" "--decorate"))
  (magit-pull nil)
  (magit-push nil)
- (magit-stash nil))
+ (magit-rebase nil)
+ (magit-stash nil)
+ (magit-tag
+  ("--annotate")))
