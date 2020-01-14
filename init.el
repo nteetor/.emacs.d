@@ -29,10 +29,6 @@
 (setq js-indent-level 2)
 (setq css-indent-offset 2)
 
-;; window split
-(load-file "~/.emacs.d/split-window-sensibly.el")
-(setq split-window-preferred-function 'split-window-really-sensibly)
-
 ;;
 ;; MODES CONFIG
 ;;
@@ -119,8 +115,14 @@
 (setq neo-smart-open t)
 (setq neo-show-hidden-files t)
 (setq neo-window-fixed-size nil)
-(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
-(add-hook 'after-init-hook #'neotree-toggle)
+(setq neo-theme 'arrow)
+
+(defun neotree-startup ()
+  (interactive)
+  (neotree-show)
+  (call-interactively 'other-window))
+
+(add-hook 'after-init-hook #'neotree-startup) ;; #'neotree-toggle)
 
 ;;
 ;; ESS - gotta have r highlighting
@@ -168,5 +170,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-(put 'upcase-region 'disabled nil)
-(put 'downcase-region 'disabled nil)
