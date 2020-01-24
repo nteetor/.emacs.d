@@ -6,11 +6,22 @@
 ;; PACKAGE MANAGER - package install and MELPA
 ;;
 (require 'package)
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                         ("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("local" . "~/.emacs.d/local")))
-
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+  (when no-ssl
+    (warn "\
+Your version of Emacs does not support SSL connections,
+which is unsafe because it allows man-in-the-middle attacks.
+There are two things you can do about this warning:
+1. Install an Emacs version that does support SSL and be safe.
+2. Remove this warning from your init file so you won't see it again."))
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto "://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
 (require 'use-package)
@@ -19,7 +30,6 @@
 ;; EMACS CONFIGURATIONS
 ;;
 (setq linum-format "%4d \u2502 ")
-(global-linum-mode t)
 (setq make-backup-files nil)
 (global-auto-revert-mode t)
 (setq column-number-mode t)
@@ -28,6 +38,13 @@
 (setq-default indent-tabs-mode nil)
 (setq js-indent-level 2)
 (setq css-indent-offset 2)
+(setq frame-resize-pixelwise t)
+
+(global-linum-mode t)
+(menu-bar-mode -1)
+
+(load-file "~/.emacs.d/split-window-sensibly.el")
+(setq split-window-preferred-function 'split-window-really-sensibly)
 
 ;;
 ;; MODES CONFIG
@@ -103,9 +120,22 @@
 (exec-path-from-shell-initialize)
 
 ;;
-;; DRACULA THEME
+;; THEME
 ;;
-(load-theme 'dracula t)
+(use-package dracula-theme :ensure :defer)
+(use-package leuven-theme :ensure :defer)
+;; (use-package twilight-bright-theme :ensure :defer)
+
+(use-package circadian
+  :ensure t
+  :config
+  (setq calendar-latitude 42.440500)
+  (setq calendar-longitude -76.495700)
+  (setq circadian-themes '((:sunset . dracula)
+                           (:sunrise . leuven)))
+  (circadian-setup))
+
+;;(load-theme 'dracula t)
 
 ;;
 ;; NEOTREE - directory navigation
@@ -163,7 +193,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (poly-R poly-markdown polymode nodejs-repl ag xref-js2 edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
+    (leuven-theme twilight-bright-theme circadian poly-R poly-markdown polymode nodejs-repl ag xref-js2 edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

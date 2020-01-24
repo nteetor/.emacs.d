@@ -1,5 +1,15 @@
-((("devtools::load_all" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+((("leuven" .
+   [1 0 0 0 0 0])
+  (":defer" .
+   [1 0 0 0 0 0])
+  (":ensure" .
+   [1 0 0 0 0 0 0])
+  ("leuven-theme" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("use-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("renv::update" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
   ("neotree-startup" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("other-window" .
@@ -599,7 +609,7 @@
   ("rev" .
    [1 0 0])
   ("dir" .
-   [2 0 0])
+   [4 0 0])
   ("createResponsives" .
    [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
   ("checkResponsiveArgument" .
@@ -677,7 +687,7 @@
   ("branch" .
    [3 0 0 0 0 0])
   ("/dev/null" .
-   [1 0 0 0 2 0 0 0 0])
+   [0 0 0 0 2 0 0 0 0])
   ("--git-dir" .
    [1 0 0 0 0 0 0 0 0])
   ("rev-parse" .
@@ -871,7 +881,7 @@
   ("row" .
    [34 0 0])
   ("container" .
-   [8 0 0 0 0 0 0 0 0])
+   [9 0 0 0 0 0 0 0 0])
   ("text-darken-4" .
    [0 0 0 0 0 0 0 1 0 1 0 0 0])
   ("ingredient" .
@@ -1101,7 +1111,7 @@
   ("auto-mode-alist" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("setq" .
-   [14 0 0 2])
+   [15 0 0 3])
   ("web-mode-css-indent-offset" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
   ("web-mode-ac-sources-alist" .
@@ -1179,7 +1189,7 @@
   ("message" .
    [3 0 0 0 0 0 0])
   ("library" .
-   [11 0 0 0 0 0 0])
+   [12 0 0 0 0 0 0])
   ("if" .
    [45 0])
   ("re" .
@@ -1893,7 +1903,7 @@
   ("split-window-sensibly" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("split-window-preferred-function" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
   ("split-window-really-sensibly" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
   ("initial-buffer-choice" .
@@ -1927,4 +1937,28 @@
   ("OPT" .
    [3 0 0])
   ("arrow" .
-   [1 0 0 0 0])))
+   [1 0 0 0 0])
+  ("dir.create" .
+   [0 0 0 0 2 1 0 0 0 0])
+  ("dir.exists" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("Files" .
+   [0 0 0 0 1])
+  ("Wall" .
+   [0 0 0 1])
+  ("Map" .
+   [1 0 0])
+  ("file.copy" .
+   [0 0 0 0 0 0 0 1 0])
+  ("list.files" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("DIR/site" .
+   [1 0 0 0 0 0 0 0])
+  ("pkgdown::build_site" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("renv::install" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("load-file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("flatten_para" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])))
