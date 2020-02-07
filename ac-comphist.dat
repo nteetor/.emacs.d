@@ -1,4 +1,64 @@
-((("leuven" .
+((("butlast" .
+   [1 0 0 0 0 0 0])
+  ("car" .
+   [2 0 0])
+  ("last" .
+   [2 0 0 0])
+  ("elt" .
+   [1 0 0])
+  ("seq-subseq" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("-1" .
+   [3 0])
+  ("1-" .
+   [1 0])
+  ("seq-take" .
+   [1 0 0 0 0 0 0 0])
+  ("let*" .
+   [1 0 0 0])
+  ("equal" .
+   [4 0 0 0 0])
+  ("seq-filter" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("shorter-path" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("cdr" .
+   [1 0 0])
+  ("while" .
+   [1 0 0 0 0])
+  ("substring" .
+   [2 0 0 0 0 0 0 0 0])
+  ("seq-map" .
+   [1 0 0 0 0 0 0])
+  ("seq-reduce" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("abbreviate-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("shortened-path" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("neo-sort-hidden-last" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-filepath-sort-function" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("y-or-n-p" .
+   [0 0 0 0 0 0 0 1])
+  ("neo-confirm-delete-file" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-confirm-create-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-confirm-create-file" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("display-graphic-p" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-aggressive-indent-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("global-whitespace-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("face" .
+   [2 0 0 0])
+  ("whitespace" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("leuven" .
    [1 0 0 0 0 0])
   (":defer" .
    [1 0 0 0 0 0])
@@ -7,7 +67,7 @@
   ("leuven-theme" .
    [0 0 0 0 0 0 0 0 0 0 0 1])
   ("use-package" .
-   [1 0 0 0 0 0 0 0 0 0 0])
+   [2 0 0 0 0 0 0 0 0 0 0])
   ("renv::update" .
    [2 0 0 0 0 0 0 0 0 0 0 0])
   ("neotree-startup" .
@@ -19,7 +79,7 @@
   ("neotree" .
    [0 0 0 0 0 0 1])
   ("defun" .
-   [1 0 0 0 0])
+   [2 0 0 0 0])
   ("insert" .
    [1 0 0 0 0 0])
   ("font-lock-builtin-face" .
@@ -27,11 +87,11 @@
   ("font-lock-add-keywords" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
   ("lambda" .
-   [1 0 0 0 0 1])
+   [4 0 0 0 0 1])
   ("R-mode-hook" .
    [0 0 0 0 0 0 0 1 0 0 0])
   ("add-hook" .
-   [2 0 0 0 0 0 0 0])
+   [3 0 0 0 0 0 0 0])
   ("debounce" .
    [1 0 0 0 0 0 0 0])
   ("utils" .
@@ -255,7 +315,7 @@
   ("event" .
    [18 0 0 0 1])
   ("not" .
-   [1 0 0])
+   [2 0 0])
   ("out" .
    [0 0 1])
   ("match" .
@@ -351,7 +411,7 @@
   ("FileSaver.js" .
    [0 0 0 0 1 0 0 0 0 0 0 0])
   ("components" .
-   [2 0 0 0 0 0 0 0 0 0])
+   [5 0 0 0 0 0 1 0 0 0])
   ("popper" .
    [1 0 0 0 0 0])
   ("jQuery" .
@@ -635,7 +695,7 @@
   ("argument" .
    [1 0 0 0 1 0 0 0])
   ("prefix" .
-   [1 0 0 0 0 0])
+   [2 0 0 0 0 0])
   ("as.character" .
    [4 0 0 0 0 0 0 0 0 0 0 1])
   ("sys.call" .
@@ -761,7 +821,7 @@
   ("env" .
    [3 0 0])
   ("function" .
-   [67 0 0 0 1 0 1 0])
+   [68 0 0 0 1 0 1 0])
   ("interactive" .
    [5 0 0 0 0 0 0 0 0 0 1])
   ("outputBindings" .
@@ -773,7 +833,7 @@
   ("OutputBinding" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0])
   ("let" .
-   [55 0 0])
+   [57 0 0])
   ("extend" .
    [1 0 0 0 0 0])
   ("listGroupInputBinding" .
@@ -915,7 +975,7 @@
   ("pipe" .
    [16 0 0 0])
   ("concat" .
-   [1 0 0 0 0 0])
+   [6 0 0 0 0 0])
   ("jsFiles" .
    [3 0 0 0 0 0 1])
   ("task" .
@@ -1103,7 +1163,7 @@
   ("Printf" .
    [1 0 0 0 0 0])
   ("require" .
-   [10 0 0 2 0 0 1])
+   [10 0 0 2 0 0 2])
   ("web-mode" .
    [0 0 0 1 0 0 0 1])
   ("add-to-list" .
@@ -1111,7 +1171,7 @@
   ("auto-mode-alist" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("setq" .
-   [15 0 0 3])
+   [26 0 0 5])
   ("web-mode-css-indent-offset" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
   ("web-mode-ac-sources-alist" .
@@ -1197,7 +1257,7 @@
   ("direction" .
    [4 0 0 0 0 0 0 0 0])
   ("length" .
-   [34 0 0 1 0 0])
+   [35 0 0 1 0 0])
   ("FALSE" .
    [12 0 0 0 0])
   ("stop" .
@@ -1233,7 +1293,7 @@
   ("init" .
    [2 0 0 0])
   ("NULL" .
-   [21 0 0 0])
+   [23 0 0 0])
   ("size" .
    [4 0 0 0])
   ("view-file-other-window" .
@@ -1261,7 +1321,7 @@
   ("find_root" .
    [1 0 0 0 0 0 0 0 0])
   ("path" .
-   [15 0 0 0])
+   [16 0 0 0])
   ("outpath" .
    [1 0 0 0 0 0 0])
   ("final_dat" .
@@ -1961,4 +2021,44 @@
   ("load-file" .
    [1 0 0 0 0 0 0 0 0])
   ("flatten_para" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])))
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("style_prefix" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("x$" .
+   [1 0])
+  ("x$prefix" .
+   [1 0 0 0 0 0 0 0])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("all-the-icons" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("<--" .
+   [0 0 1])
+  ("text-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-window-width" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("neo-confirm-delete-directory-recursively" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("off-p" .
+   [4 0 0 0 0])
+  ("neo-confirm-kill-buffers-for-files-in-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-hide-cursor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("neo-vc-integration" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("neo-autorefresh" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("neo-keymap-style" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("expand-file-name" .
+   [0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2])
+  ("expand-abbrev" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("eshell/pwd" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("split-string" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])))

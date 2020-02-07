@@ -7,6 +7,7 @@
  (magit-pull nil)
  (magit-push nil)
  (magit-rebase nil)
+ (magit-reset nil)
  (magit-run nil)
  (magit-stash nil)
  (magit-tag
