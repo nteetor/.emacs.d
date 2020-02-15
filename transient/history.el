@@ -5,7 +5,8 @@
  (magit-log
   ("-n256" "--graph" "--decorate"))
  (magit-pull nil)
- (magit-push nil)
+ (magit-push nil
+             ("--force"))
  (magit-rebase nil)
  (magit-reset nil)
  (magit-run nil)

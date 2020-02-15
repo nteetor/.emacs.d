@@ -1,2064 +1,2112 @@
-((("butlast" .
-   [1 0 0 0 0 0 0])
-  ("car" .
-   [2 0 0])
-  ("last" .
-   [2 0 0 0])
-  ("elt" .
-   [1 0 0])
-  ("seq-subseq" .
-   [1 0 0 0 0 0 0 0 0 1])
-  ("-1" .
-   [3 0])
-  ("1-" .
-   [1 0])
-  ("seq-take" .
-   [1 0 0 0 0 0 0 0])
-  ("let*" .
-   [1 0 0 0])
-  ("equal" .
-   [4 0 0 0 0])
-  ("seq-filter" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("shorter-path" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("cdr" .
-   [1 0 0])
-  ("while" .
+((("bottom" .
+   [1 0 0 0 0 0])
+  ("unbox" .
    [1 0 0 0 0])
-  ("substring" .
-   [2 0 0 0 0 0 0 0 0])
-  ("seq-map" .
-   [1 0 0 0 0 0 0])
-  ("seq-reduce" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("abbreviate-file-name" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("shortened-path" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 1])
-  ("neo-sort-hidden-last" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("neo-filepath-sort-function" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("y-or-n-p" .
-   [0 0 0 0 0 0 0 1])
-  ("neo-confirm-delete-file" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("neo-confirm-create-directory" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("neo-confirm-create-file" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("display-graphic-p" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("global-aggressive-indent-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("global-whitespace-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("face" .
+  ("dash" .
    [2 0 0 0])
-  ("whitespace" .
-   [0 0 0 0 0 0 0 0 0 2])
-  ("leuven" .
+  ("round_rename" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("switch" .
    [1 0 0 0 0 0])
-  (":defer" .
-   [1 0 0 0 0 0])
-  (":ensure" .
-   [1 0 0 0 0 0 0])
-  ("leuven-theme" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("use-package" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("renv::update" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("neotree-startup" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("other-window" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("call-interactively" .
+  ("htmltools::div" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pronoun_class_add" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("scroll" .
+   [5 0 0 0 0 0])
+  ("overflow" .
+   [4 0 0 0 0 0 0 0])
+  ("set-face-attribute" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("neotree" .
-   [0 0 0 0 0 0 1])
-  ("defun" .
-   [2 0 0 0 0])
-  ("insert" .
-   [1 0 0 0 0 0])
-  ("font-lock-builtin-face" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("font-lock-add-keywords" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("lambda" .
-   [4 0 0 0 0 1])
-  ("R-mode-hook" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("add-hook" .
-   [3 0 0 0 0 0 0 0])
-  ("debounce" .
-   [1 0 0 0 0 0 0 0])
-  ("utils" .
-   [1 0 0 0 0])
-  ("store" .
-   [1 0 0 0 0])
-  ("selected" .
-   [2 0 0 0 0 0 0 0])
-  ("updateRadioInput" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("radiobarInput" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("RangeInput" .
-   [1 0 0 0 0 0 0 1 0 0])
-  ("getRatePolicy" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("DELAY" .
-   [3 0 0 1 0])
-  ("POLICY" .
-   [2 0 1 0 1 0])
-  ("_debounce" .
-   [3 0 0 0 0 0 0 0 0])
-  ("stringr::str_split" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("httr::content" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("stopwords::stopwords" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("packageVersion" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("stopwords::" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("webpage" .
-   [1 0 0 0 0 0 0])
-  ("local" .
-   [1 0 0 0 0])
-  ("local_profile" .
-   [0 0 0 0 0 1 1 0 0 0 0 0 0])
-  ("inhibit-startup-screen" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0])
-  ("split-width-threshold" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("split-height-threshold" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("_map" .
-   [3 0 0 0])
-  ("FormInput" .
-   [2 0 0 0 0 0 1 0 0])
-  ("jobId" .
-   [1 0 0 0 0])
-  ("post" .
-   [1 0 0 0])
-  ("final" .
-   [1 0 0 0 0])
-  ("uri" .
-   [2 0 0])
-  ("fileInfo" .
-   [0 0 0 0 0 0 0 1])
-  ("uploadInit" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("makeRequest" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("shinyapp" .
-   [1 0 0 0 0 0 0 0])
-  ("open" .
-   [1 0 0 0])
-  ("PROGRESS_ANIMATED" .
-   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
-  ("animated" .
-   [1 0 0 0 0 0 0 0])
-  ("PROGRESS_BAR" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("PROGRESS" .
-   [1 0 1 0 0 0 0 4])
-  ("loadstart" .
-   [1 0 0 0 0 0 0 0 0])
-  ("i" .
-   [3])
-  ("req" .
-   [4 0 0])
-  ("XMLHttpRequest" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("_element" .
-   [3 0 0 0 1 0 1 0])
-  ("progress" .
-   [10 0 0 0 0 0 0 0])
-  ("seq" .
-   [1 0 0])
-  ("elementValues" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("roxygen2::block_get_tags" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("results" .
-   [1 0 0 0 0 0 0])
-  ("base_path" .
-   [1 0 0 0 0 0 0 0 0])
-  ("Demo" .
-   [0 0 0 1])
-  ("x$value$output" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("x$value$code" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("roxygen2::rd_section" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("x$output" .
-   [1 0 0 0 0 0 0 0])
-  ("x$val" .
-   [2 0 0 0 0])
-  ("eval" .
-   [1 0 0 0])
-  ("roxygen2::tag_code" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("roxygen2::tag_markdown" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("roxygen2" .
-   [2 0 0 0 0 0 0 1])
-  ("PARENT_ITEM" .
-   [0 0 0 0 0 0 0 0 1 0 0])
-  ("isNode" .
-   [3 0 0 0 0 0])
-  ("PARENT" .
-   [0 0 1 0 0 0])
-  ("PARENT_CHILD" .
+  ("split-string" .
    [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("CLICK" .
-   [2 0 0 0 0])
-  ("document" .
-   [1 0 0 2 1 0 0 0])
-  ("NavInput" .
-   [0 0 0 0 0 1 0 0])
-  ("ShinyInterface" .
-   [0 0 0 0 0 0 0 1 0 0 1 0 0 0])
-  ("receiveMessage" .
-   [0 0 0 0 2 0 0 0 0 0 0 0 0 0])
-  ("subscribe" .
-   [0 0 0 1 0 1 0 0 0])
-  ("getData" .
-   [1 0 0 0 1 0 0])
-  ("PARENT_MENU" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("CLOSE" .
-   [2 0 0 0 0])
-  ("Event" .
-   [6 0 0 0 0])
-  ("bs" .
-   [2 0])
-  ("hide" .
-   [1 0 0 0])
-  ("SELECTOR" .
-   [1 0 0 0 0 0 0 0])
-  ("CHILD" .
-   [5 0 0 1 1])
-  ("INPUT" .
-   [4 0 8 2 2])
-  ("ClassName" .
-   [3 0 1 1 7 2 2 0 0])
-  ("Selector" .
-   [11 0 0 0 0 1 0 1])
-  ("MENU" .
-   [3 0 0 0])
-  ("getPluginAttributes" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("element" .
-   [23 0 0 0 0 0 1])
-  ("assert_id" .
-   [6 0 0 0 0 0 0 0 0])
-  ("actions" .
-   [6 0 0 0 0 0 0])
-  ("is_targeter" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("deps_attached" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("try_attach" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("dependency_yonder" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("isTRUE" .
-   [3 0 0 0 0 0])
-  ("htmltools::attachDependencies" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("on.exit" .
-   [0 0 1 0 0 0 0])
-  ("flags$deps_detached" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("attach" .
+  ("string" .
    [1 0 0 0 0 0])
-  ("flag_attached" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("flags$deps_attached" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("emptyenv" .
-   [0 0 0 0 0 0 0 1])
-  ("chr_class" .
-   [1 0 0 0 0 0 0 0 0])
-  ("census" .
-   [1 0 0 0 0 1])
-  ("dplyr::rename" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("census_1" .
-   [2 0 0 0 0 0 0 0])
-  ("dplyr::glimpse" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("rprojroot::find_package_root_file" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("rprojroot::has_dir" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("rprojroot::find_root" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("rprojroot" .
-   [0 0 0 0 0 1 0 0 0])
-  ("fs::path_package" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("readr::read_csv" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("readr::read_log" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("propagate" .
-   [1 0 0 0 0 0 0 0 0])
-  ("currentTarget" .
-   [0 0 0 2 1 0 1 0 1 0 0 0 0])
-  ("event" .
-   [18 0 0 0 1])
-  ("not" .
-   [2 0 0])
-  ("out" .
-   [0 0 1])
-  ("match" .
-   [1 0 0 0 0])
-  ("unname" .
-   [0 0 0 1 0 0])
-  ("indexOf" .
-   [1 0 0 0 0 0 0])
-  ("invert" .
-   [4 0 0 0 0 0])
-  ("btn" .
-   [1 0 0])
-  ("pattern" .
-   [4 0 0 0 0 0 0])
-  ("regex" .
-   [1 0 0 0 0])
-  ("modal" .
-   [1 0 0 0 0])
-  ("color-yiq" .
-   [0 0 0 0 0 0 2 0 0])
-  ("pkg_name" .
-   [1 0 0 0 0 0 0 0])
-  ("sub" .
-   [1 0 0])
-  ("config_baseurl" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("b" .
-   [1])
-  ("path_file" .
-   [1 0 0 0 0 0 0 0 0])
-  ("fs::path_real" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("path_config" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("set" .
-   [2 0 0])
-  ("sourcetools::read_lines" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("sourcetools::read" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tolower" .
-   [1 0 0 0 0 0 0])
-  ("block_path" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("block_file" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("tokens_sectioned" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tokens_clean_values" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("pmap" .
-   [3 0 0 0])
-  ("tidyr::nest" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("tokens_exampled" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("browse" .
-   [0 0 0 1 0 0])
-  ("tokens" .
-   [11 0 0 0 0 0])
-  ("pkgload::load_all" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("pkgload::load_code" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("new.env" .
-   [1 0 0 0 0 0 0])
-  ("block" .
-   [18 0 0 0 0])
-  ("pkgload::pkg_env" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("validateInput" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("child" .
-   [22 0 0 0 0])
-  ("regmatches" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("regexec" .
-   [1 0 0 0 0 0 0])
-  ("str" .
-   [11 0 0])
-  ("tags$div" .
-   [1 0 0 0 0 0 0 0])
-  ("checkbar" .
-   [1 0 0 0 0 0 0 0])
-  ("gsub" .
-   [5 0 0 0])
-  ("transform" .
-   [1 0 0 0 0 0 0 0 0])
-  ("self" .
-   [2 0 0 0])
-  ("_VALUES" .
-   [0 0 2 2 0 0 0])
-  ("FileSaver.js" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("components" .
-   [5 0 0 0 0 0 1 0 0 0])
-  ("popper" .
-   [1 0 0 0 0 0])
-  ("jQuery" .
-   [1 0 0 0 0 1])
-  ("Ion.rangeSlider" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("license" .
-   [8 0 0 0 0 0 0])
-  ("header" .
-   [8 0 0 0 0 0])
-  ("LICENSE" .
-   [6 0 2 3 2 0 0])
-  ("install.packages" .
-   [3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
-  ("getOption" .
-   [0 0 0 0 0 0 0 0 1])
-  ("tag_registry" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("toggle" .
-   [3 0 0 0 0 0])
-  ("$attribs$href" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("preventDefault" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("yonder" .
-   [8 0 0 0 0 0])
-  ("tags" .
-   [3 0 0 0])
-  ("tagAddClass" .
-   [0 0 0 0 1 0 0 0 0 0 1])
-  ("base" .
-   [1 0 0 0])
-  ("base$attribs$active" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("base$attribs$" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("$attribs$class" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("attribs" .
-   [3 0 0 0 0 0 0])
-  ("base$children" .
-   [5 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("binding" .
-   [2 0 0 0 0 0 0])
-  ("fam_map" .
-   [1 0 0 0 0 0 0])
-  ("map_chr" .
-   [2 0 0 0 0 0 0])
-  ("alert" .
-   [1 0 0 0 0])
-  ("tags$h4" .
-   [1 0 0 0 0 0 0])
-  ("is_tag" .
-   [4 0 0 0 0 0])
-  ("bar" .
-   [3 0 0])
-  ("stylesheet" .
-   [0 0 0 0 0 1 0 0 0 0])
-  ("show" .
-   [3 0 1 0])
-  ("shadows" .
-   [1 0 0 0 0 0 0])
-  ("flex" .
-   [1 0 0 0])
-  ("stroke" .
-   [3 0 0 0 0 0])
-  ("reset" .
-   [3 0 0 0 0])
-  ("svg" .
-   [3 0 0])
-  ("centered" .
-   [4 0 0 0 0 0 0 1])
-  ("var" .
-   [3 0 0])
-  ("clicked" .
-   [1 0 0 0 0 0 0])
-  ("_color" .
-   [5 0 0 0 0 0])
-  ("getRandomInt" .
-   [0 0 0 0 2 1 1 1 0 0 0 0])
-  ("brighter" .
-   [1 0 0 0 0 0 0 0])
-  ("darker" .
-   [1 0 0 0 0 0])
-  ("rgb" .
-   [1 0 0])
-  ("fe9929" .
-   [1 0 0 0 0 0])
-  ("year" .
-   [3 0 0 0])
-  ("dropvar" .
-   [5 0 0 0 0 0 1])
-  ("dropyear" .
-   [4 0 0 0 0 0 0 0])
-  ("change" .
-   [2 0 0 0 0 0])
-  ("slider" .
-   [3 0 0 0 0 0])
-  ("exit" .
-   [1 0 0 0])
-  ("update" .
-   [2 0 0 0 0 0])
-  ("attr" .
-   [8 0 0 0])
-  ("enter" .
-   [2 0 0 0 0])
-  ("variable" .
-   [18 0 0 0 0 0 0 0])
-  ("selectAll" .
-   [2 0 0 0 0 0 0 0 0])
-  ("dropdown" .
-   [6 0 0 0 0 0 0 0])
-  ("FFF" .
-   [1 0 0])
-  ("Object" .
-   [1 0 0 0 0 0])
-  ("years" .
-   [10 0 0 0 0])
-  ("properties" .
-   [6 0 0 0 0 0 0 0 0 0])
-  ("property" .
-   [2 0 0 1 4 0 1 8])
-  ("county" .
-   [3 0 0 0 0 0])
-  ("countyShapes" .
-   [1 0 0 0 0 0 1 1 0 0 0 0])
-  ("features" .
-   [1 0 0 0 0 0 0 0])
-  ("counties" .
-   [1 0 0 0 0 0 0 0])
-  ("dataByCountyByYear" .
-   [0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Response" .
-   [1 0 0 0 0 0 0 0])
-  ("Request" .
-   [0 0 0 0 1 0 0])
-  ("magic-" .
-   [0 0 0 0 0 1])
-  ("onlyUnique" .
-   [0 0 0 0 1 0 0 0 0 0])
-  ("insts" .
-   [1 0 0 0 0])
-  ("country_rows" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("country" .
-   [5 0 0 0 0 0 0])
-  ("cont" .
-   [3 0 0 0])
-  ("continent" .
-   [2 0 0 0 0 0 0 0 1])
-  ("nested_data" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("this_continent" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("continents" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("uniq" .
-   [1 0 0 0])
-  ("my_data" .
-   [3 0 0 0 0 0 0])
-  ("countries" .
-   [3 0 0 0 1 0 0 0 1])
-  ("width" .
-   [5 0 0 0 0])
-  ("species" .
-   [5 0 0 0 0 0 0])
-  ("Species" .
-   [1 0 0 0 1 0 0])
-  ("nested" .
-   [6 0 0 0 0 1])
-  ("getAttribute" .
-   [2 0 0 0 1 1 1 0 0 0 0 0])
-  ("counter" .
-   [2 0 0 0 0 0 0])
-  ("Events" .
-   [1 0 0 0 0 0])
-  ("acc" .
-   [2 0 0])
-  ("array" .
-   [2 0 0 0 0])
-  ("true" .
-   [9 0 0 0])
-  ("border-radius" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("outline" .
-   [1 0 0 0 0 0 0])
-  ("box-shadow" .
-   [1 0 0 1 0 0 0 0 0 0])
-  ("chabudai" .
-   [1 0 0 0 0 0 0 0])
-  ("Type" .
-   [1 0 0 0])
-  ("querySelectorAll" .
-   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("pages" .
-   [7 0 0 0 0])
-  ("after" .
-   [3 0 0 0 0])
-  ("throw" .
-   [1 0 0 0 0])
-  ("cell" .
-   [1 0 0 0])
-  ("td" .
-   [2 0])
-  ("getElementsByTagName" .
-   [0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("parse" .
-   [3 0 0 0 0])
-  ("prev" .
-   [3 0 0 0])
-  ("clearEditing" .
-   [1 0 0 0 0 0 0 0 0 1 0 0])
-  ("inputs" .
-   [5 0 0 0 0 0])
-  ("innerHTML" .
-   [0 0 0 2 0 0 1 0 3])
-  ("matches" .
-   [4 0 0 0 0 0 0])
-  ("stopEditing" .
-   [2 0 0 0 0 0 1 0 0 0 0])
-  ("on" .
-   [6 0])
-  ("startEditing" .
-   [0 0 0 0 0 1 0 0 0 0 0 0])
-  ("selectionEnd" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("selectionStart" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("firstChild" .
-   [6 0 0 1 0 0 0 0 0 2])
-  ("add" .
-   [18 0 0])
-  ("closeEditing" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("setAttribute" .
-   [0 0 0 0 0 1 1 0 0 0 0 0])
-  ("val" .
-   [1 0 0])
-  ("editing" .
-   [31 0 0 0 0 0 0])
-  ("state" .
-   [3 0 0 0 0])
-  ("activated" .
-   [4 0 0 0 0 0 0 0 0])
-  ("removeChild" .
-   [2 0 0 0 0 0 1 1 0 0 0])
-  ("textarea" .
-   [5 0 0 0 0 1 0 0])
-  ("typescript" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("log" .
-   [23 0 0])
-  ("then" .
-   [1 0 0 0])
-  ("rev" .
-   [1 0 0])
-  ("dir" .
-   [4 0 0])
-  ("createResponsives" .
-   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
-  ("checkResponsiveArgument" .
-   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("lapply" .
-   [7 0 0 0 0 0])
-  ("names2" .
-   [2 0 0 0 0 0])
-  ("points" .
-   [1 0 0 0 0 0])
-  ("is.list" .
-   [2 0 0 0 0 0 0])
-  ("as.list" .
-   [4 0 0 0 0 0 0])
-  ("parent" .
-   [1 0 0 0 0 0])
-  ("this" .
-   [24 0 0 0])
-  ("createResponsiveClasses" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("is_list" .
-   [1 0 0 0 0 0 0])
-  ("argument" .
-   [1 0 0 0 1 0 0 0])
-  ("prefix" .
-   [2 0 0 0 0 0])
-  ("as.character" .
-   [4 0 0 0 0 0 0 0 0 0 0 1])
-  ("sys.call" .
-   [5 0 0 0 0 0 0 0])
-  ("call" .
-   [7 0 0 0])
-  ("s" .
-   [4])
-  ("names" .
-   [5 0 0 0 0])
-  ("for" .
-   [3 0 0])
-  ("possible" .
-   [1 0 0 0 0 0 0 1])
-  ("check" .
-   [1 0 0 0 0])
-  ("responsive" .
-   [1 0 0 0 0 0 2 0 0 3])
-  ("wrap" .
-   [1 0 0 0])
-  ("align" .
-   [2 0 0 0 0])
-  ("justify" .
-   [1 0 0 0 0 0 0])
-  ("reverse" .
-   [2 0 0 0 0 0 0])
-  ("Document" .
-   [0 0 0 0 0 0 0 1])
-  ("paste" .
-   [1 0 0 0 0])
-  ("is_ymd" .
-   [1 0 0 0 0 0])
-  ("is_date" .
-   [2 0 0 0 0 0 0])
-  ("removeAttribute" .
-   [0 0 0 0 0 1 0 0 0 0 1 0 0 0 0])
-  ("split" .
-   [1 0 0 0 0])
-  ("enable" .
-   [2 0 0 0 0 0])
-  ("config" .
-   [22 0 0 0 0 0])
-  ("-ne" .
-   [3 0 0])
-  ("-n" .
-   [2 0])
-  ("the" .
-   [2 0 0])
-  ("branch" .
-   [3 0 0 0 0 0])
-  ("/dev/null" .
-   [0 0 0 0 2 0 0 0 0])
-  ("--git-dir" .
-   [1 0 0 0 0 0 0 0 0])
-  ("rev-parse" .
-   [1 0 0 0 0 0 0 0 0])
-  ("console" .
-   [34 0 0 0 0 0 0])
-  ("click" .
-   [6 0 0 0 0])
-  ("tags$img" .
-   [1 0 0 0 0 0 0 0])
-  ("tagIs" .
-   [1 0 0 0 0])
-  ("is.character" .
-   [8 0 0 0 0 0 0 1 0 0 0 0])
-  ("return" .
-   [69 0 0 0 0 0])
-  ("numberInput" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("dplyr::collapse" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("margins" .
-   [1 0 0 0 0 0 0])
-  ("session" .
-   [8 0 0 0 0 0 0])
-  ("dull" .
-   [1 0 0 0])
-  ("linkInputBindng" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("Link" .
-   [0 0 0 1])
-  ("getValue" .
-   [13 0 0 0 0 0 1 0])
-  ("SELECTED" .
-   [1 0 0 0 0 0 0 0])
-  ("getType" .
-   [3 0 0 0 0 0 0])
-  ("value" .
-   [79 0 0 0 0])
-  ("shiny::registerInputHandler" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("shiny" .
-   [1 0 0 0 1])
-  ("VALIDATE" .
-   [1 0 0 0 0 0 0 0])
-  ("dots_list" .
-   [1 0 0 0 0 0 0 0 0])
-  ("getDefaultReactiveDomain" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2])
-  ("args" .
-   [2 0 0 0])
-  ("dots_values" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("rlang" .
-   [1 0 0 0 0])
-  ("nil" .
-   [6 0 0])
-  ("aw-background" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("output" .
-   [8 0 0 0 0 0])
-  ("shinyApp" .
-   [10 0 0 0 0 0 0 0])
-  ("list" .
-   [14 0 0 0])
-  ("shiny::exprToFunction" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("quote" .
-   [1 0 0 0 0])
-  ("parent.frame" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("env" .
-   [3 0 0])
-  ("function" .
-   [68 0 0 0 1 0 1 0])
-  ("interactive" .
-   [5 0 0 0 0 0 0 0 0 0 1])
-  ("outputBindings" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("scope" .
-   [5 0 0 0 0])
-  ("listGroupOutputBinding" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
-  ("OutputBinding" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("let" .
-   [57 0 0])
-  ("extend" .
-   [1 0 0 0 0 0])
-  ("listGroupInputBinding" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("listGroupInput" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("register" .
-   [4 0 0 0 0 0 0 0])
-  ("inputBindings" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("Shiny" .
-   [8 0 0 0 0])
-  ("map" .
-   [39 0 0])
-  ("append" .
-   [20 0 0 1 0 0])
-  ("renderValue" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("off" .
-   [1 0 0])
-  ("unsubscribe" .
-   [0 0 0 0 1 2 0 0 0 0 0])
-  ("callback" .
-   [8 0 0 0 0 0 0 0])
-  ("id" .
-   [12 0])
-  ("el" .
-   [113 0])
-  ("getId" .
-   [2 0 0 0 0])
-  ("content" .
-   [4 0 0 0 0 0 0])
-  ("data" .
-   [81 0 0 0])
-  ("..." .
-   [13 0 0])
-  ("transparent" .
-   [0 0 0 2 0 0 1 0 0 0 0])
-  ("bg-lighten" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("$variant" .
-   [1 0 0 0 0 0 0 0])
-  ("mixin" .
-   [1 0 0 0 0])
-  ("$map" .
-   [2 0 0 0])
-  ("bg-variant" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("background-image" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("$gray-300" .
-   [3 0 0 0 0 0 0 0 0])
-  ("gray" .
-   [1 0 0 0])
-  ("$gray-500" .
-   [3 0 0 0 0 0 0 0 0])
-  ("$greys" .
-   [1 0 0 0 0 0])
-  ("map-get" .
-   [1 0 0 0 0 0 0])
-  ("$map-get" .
-   [1 0 0 0 0 0 0 0])
-  ("$dark" .
-   [1 0 0 0 0])
-  ("background" .
-   [1 0 1 0 0 0 0 0 0 0])
-  ("$color" .
-   [6 0 0 0 0 0])
-  ("$parent" .
-   [3 0 0 0 0 0 0])
-  ("bg-range-variant" .
-   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
-  ("inherit" .
-   [2 0 0 0 0 0 0])
-  ("&" .
-   [3])
-  ("js-mode" .
-   [1 0 0 0 0 0 0])
-  ("magic-mode-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
-  ("g" .
-   [1])
-  ("pump" .
-   [1 0 0 0])
-  ("input$integer" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ess-default-style" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("flow-text" .
-   [1 0 0 0 0 0 0 0 0])
-  ("s12" .
-   [2 0 0])
-  ("Ingredients" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("card-content" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("ul" .
-   [1 0])
-  ("Quantity" .
-   [0 0 0 0 1 0 0 0])
-  ("m6" .
-   [1 0])
-  ("col" .
-   [6 0 0])
-  ("row" .
-   [34 0 0])
-  ("container" .
-   [9 0 0 0 0 0 0 0 0])
-  ("text-darken-4" .
-   [0 0 0 0 0 0 0 1 0 1 0 0 0])
-  ("ingredient" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("name" .
-   [9 0 0 0])
-  ("comment" .
-   [1 0 0 0 0 0 0])
-  ("spent" .
-   [2 0 0 0 0])
-  ("cssLocal" .
-   [2 0 0 0 0 0 0 0])
-  ("eslint" .
-   [2 0 0 0 0 1])
-  ("jslint" .
-   [1 0 0 0 0 0])
-  ("reporter" .
-   [1 0 0 0 0 0 0 0])
-  ("jshint" .
-   [2 0 0 0 0 0])
-  ("src" .
-   [6 0 0])
-  ("dest" .
-   [4 0 0 0])
-  ("uglify" .
-   [0 0 0 1 0 0])
-  ("rename" .
-   [1 0 0 0 0 0])
-  ("jsDest" .
-   [2 0 0 0 0 0])
-  ("pipe" .
-   [16 0 0 0])
-  ("concat" .
-   [6 0 0 0 0 0])
-  ("jsFiles" .
-   [3 0 0 0 0 0 1])
-  ("task" .
-   [5 0 0 0])
-  ("gulp" .
-   [22 0 0 0])
-  ("FileUpload" .
-   [0 0 0 0 2 0 0 0 0 0])
-  ("font-family" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("cursive" .
-   [0 0 0 1 0 0 1])
-  ("right" .
-   [3 0 0 0 0])
-  ("absolute" .
-   [0 0 1 0 0 0 0 0])
-  ("position" .
-   [1 0 0 0 0 0 0 0])
-  ("title-image" .
-   [0 0 0 1 0 0 0 0 0 0 0])
-  ("relative" .
-   [1 0 1 0 0 0 0 0])
-  ("---" .
-   [3 0 0])
-  ("The" .
-   [1 0 0])
-  ("6CFCFE" .
-   [1 0 0 0 0 0])
-  ("ace_keyword" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("ace_identifier" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("BFBFBF" .
-   [1 0 0 0 0 0])
-  ("would" .
-   [1 0 0 0 0])
-  ("They" .
-   [1 0 0 0])
-  ("sans-serif" .
-   [0 0 0 1 1 0 0 0 0 0])
-  ("serif" .
-   [1 0 0 1 0])
-  ("black" .
-   [2 0 0 0 0])
-  ("href" .
-   [4 0 0 0])
-  ("li" .
-   [3 0])
-  ("inline-block" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("ease" .
-   [1 0 0 0])
-  ("border-box" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("menu" .
-   [5 0 0 0])
-  ("500" .
-   [1 0 0])
-  ("font-weight" .
-   [1 0 0 0 0 0 0 0 1 0 0])
-  ("uppercase" .
-   [0 0 0 1 0 0 0 0 0])
-  ("stretch" .
-   [0 0 0 0 1 0 0])
-  ("flex-end" .
-   [1 0 0 0 0 0 0 0])
-  ("row-reverse" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("ltr" .
-   [1 0 0])
-  ("rtl" .
-   [1 0 0])
-  ("100px" .
-   [1 0 0 0 0])
-  ("background-color" .
-   [1 0 0 0 1 0 0 2 1 0 1 0 0 0 0 0])
-  ("-webkit-flex" .
-   [0 0 0 1 1 0 0 0 0 0 0 0])
-  ("display" .
-   [13 0 1 1 0 0 0])
-  ("center" .
-   [2 0 0 0 0 0])
-  ("bold" .
-   [3 0 0 0])
-  ("teal" .
-   [1 0 0 0])
-  ("h1" .
-   [1 0])
-  ("div" .
-   [18 0 0])
-  ("none" .
-   [6 0 0 0])
-  ("white" .
-   [8 0 0 0 0])
-  ("css" .
-   [3 0 0])
-  ("link" .
-   [4 0 0 0])
-  ("evt" .
-   [2 0 0])
-  ("submit" .
-   [9 0 0 0 0 0])
-  ("greeting-form" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("script" .
-   [5 0 0 0 0 0])
-  ("min" .
-   [3 0 0])
-  ("dist" .
-   [1 0 0 0])
-  ("latest" .
-   [1 0 0 0 0 0])
-  ("unpkg" .
-   [0 0 0 0 1])
-  ("https" .
-   [1 0 0 0 0])
-  ("greeting" .
-   [2 0 0 0 0 0 0 0])
-  ("form" .
-   [3 0 0 0])
-  ("mdc-button--primary" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("mdc-button--raised" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("lastname" .
-   [1 0 0 0 0 0 0 0])
-  ("mdc-textfield__input" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("text" .
-   [15 0 0 0])
-  ("input" .
-   [35 0 0 0 0])
-  ("MDCTextfield" .
-   [0 0 0 1 0 0 0 0 0 0 0 0])
-  ("data-mdc-auto-init" .
-   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
-  ("mdc-form-field" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("label" .
-   [5 0 0 0 0])
-  ("firstname" .
-   [2 0 0 0 0 0 0 0 0])
-  ("mdc-textfield" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 3])
-  ("type" .
-   [28 0 0 0])
-  ("world" .
-   [1 0 0 0 0])
-  ("Hello" .
-   [1 0 0 0 0])
-  ("mdc-typography--display1" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("body" .
-   [3 0 1 0])
-  ("mdc-button" .
-   [0 0 0 0 0 0 1 1 0 0])
-  ("button" .
-   [10 0 0 0 0 1])
-  ("mdc-typography" .
-   [0 0 1 0 0 1 0 0 0 0 0 0 0 1])
-  ("class" .
-   [44 0 0 0 2])
-  ("material-components-web" .
-   [0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("title" .
-   [7 0 0 0 0])
-  ("meta" .
-   [4 0 0 0])
-  ("html" .
-   [4 0 0 2])
-  ("MAGICK_HOME" .
-   [0 0 0 0 0 0 1 0 0 0 1])
-  ("exec-path-from-shell-copy-env" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("func" .
-   [0 0 0 2])
-  ("range" .
-   [18 1 0 0 0])
-  ("package" .
-   [6 0 0 1 0 0 0])
-  ("import" .
-   [15 0 0 0 1 0])
-  ("fmt" .
-   [1 0 0])
-  ("Printf" .
-   [1 0 0 0 0 0])
-  ("require" .
-   [10 0 0 2 0 0 2])
-  ("web-mode" .
-   [0 0 0 1 0 0 0 1])
-  ("add-to-list" .
-   [4 0 0 0 0 0 0 0 0 0 2])
-  ("auto-mode-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("setq" .
-   [26 0 0 5])
-  ("web-mode-css-indent-offset" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("web-mode-ac-sources-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ac-source-css-property" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("ac-source-words-in-buffer" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ac-source-abbrev" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("web-mode-enable-auto-closing" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("About" .
-   [1 0 0 0 0])
-  ("page" .
-   [9 0 0 0])
-  ("author" .
-   [1 0 0 0 0 0])
-  ("font-size" .
-   [0 2 0 0 0 0 0 0 0])
-  ("font" .
-   [0 0 0 1])
-  ("FFFFFF" .
-   [8 0 0 0 0 0])
-  ("code" .
-   [5 0 0 0])
-  ("a" .
-   [1])
-  ("c" .
-   [5])
-  ("highlight" .
-   [5 0 0 0 0 0 0 0 1])
-  ("foo" .
-   [1 0 0])
-  ("FF00FF" .
-   [1 0 0 0 0 0])
-  ("color" .
-   [13 0 0 0 0])
-  ("FFFF00" .
-   [1 0 0 0 0 0])
-  ("o" .
-   [1])
-  ("E44C44" .
-   [0 0 0 1 0 0])
-  ("babel" .
-   [1 0 0 0 0])
-  ("presets" .
-   [1 0 0 0 0 0 0])
-  ("sass" .
-   [2 0 0 0])
-  ("cssFiles" .
-   [4 0 0 0 0 0 0 0])
-  ("scssFiles" .
-   [1 0 0 0 0 0 0 0 0])
-  ("clean" .
-   [3 0 0 0 0])
-  ("false" .
-   [10 0 0 0 0])
-  ("zissou" .
-   [1 0 0 0 0 0])
-  ("college" .
-   [1 0 0 0 0 0 0])
-  ("recipe" .
-   [7 0 0 0 0 0])
-  ("fal" .
-   [1 0 0])
-  ("include" .
-   [4 0 0 0 0 0 0])
-  ("collapsible" .
-   [0 0 0 0 0 0 0 1 0 0 1])
-  ("EMACS" .
-   [0 0 0 0 1])
-  ("emacs" .
-   [2 0 0 0 0])
-  ("message" .
-   [3 0 0 0 0 0 0])
-  ("library" .
-   [12 0 0 0 0 0 0])
-  ("if" .
-   [45 0])
-  ("re" .
-   [9 0])
-  ("direction" .
-   [4 0 0 0 0 0 0 0 0])
-  ("length" .
-   [35 0 0 1 0 0])
-  ("FALSE" .
-   [12 0 0 0 0])
-  ("stop" .
-   [18 0 0 0])
-  ("left" .
-   [1 0 0 0])
-  ("call." .
-   [1 0 0 0 0])
-  ("paste0" .
-   [4 0 0 0 0 0])
-  ("is.null" .
-   [19 0 0 0 0 0 0])
-  ("all" .
-   [9 0 0])
-  ("warning" .
-   [1 0 0 0 0 0 0])
-  ("disabled" .
-   [4 0 0 0 0 0 0 0])
-  ("which" .
-   [2 0 0 0 0])
-  ("values" .
-   [42 0 0 0 0 0])
-  ("dividers" .
-   [1 0 0 0 0 0 0 0])
-  ("TRUE" .
-   [11 0 0 0])
-  ("ace-window" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("global-set-key" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("kbd" .
-   [2 0 0])
-  ("init" .
-   [2 0 0 0])
-  ("NULL" .
-   [23 0 0 0])
-  ("size" .
-   [4 0 0 0])
-  ("view-file-other-window" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("familiar" .
-   [1 0 0 0 0 0 0 0])
-  ("functions" .
-   [1 0 0 0 0 0 0 0 0])
-  ("tools" .
-   [1 0 0 0 0])
-  ("with" .
-   [1 0 0 0])
-  ("new" .
-   [2 0 0])
-  ("look" .
-   [1 0 0 0])
-  ("ivy" .
-   [2 0 0])
-  ("choices" .
-   [7 0 0 0 0 0 0])
-  ("filepath" .
-   [1 0 0 0 0 0 0 0])
-  ("root" .
-   [1 0 0 0])
-  ("find_root" .
-   [1 0 0 0 0 0 0 0 0])
-  ("path" .
-   [16 0 0 0])
-  ("outpath" .
-   [1 0 0 0 0 0 0])
-  ("final_dat" .
-   [11 0 0 0 0 0 1 0 0])
-  ("read_csv" .
-   [3 0 0 0 0 0 0 0])
-  ("final_dat$year" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("table" .
-   [3 0 0 0 0])
-  ("mutate" .
-   [4 0 0 0 0 0])
-  ("select" .
-   [16 0 0 0 0 0])
-  ("unique" .
-   [1 0 0 0 0 0])
-  ("select_if" .
-   [0 0 0 0 0 0 0 0 1])
-  ("str_detect" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("filter" .
-   [9 0 0 0 0 0])
-  ("head" .
-   [3 0 0 0])
-  ("pull" .
-   [1 0 0 0])
-  ("format_csv" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("cat" .
-   [4 0 0])
-  ("filter_if" .
-   [2 0 0 0 0 0 0 0 0])
-  ("in" .
-   [10 0])
-  ("filter_all" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("vapply" .
-   [4 0 0 0 0 0])
-  ("mutate_at" .
-   [0 0 0 0 0 0 0 0 1])
-  ("mutate_all" .
+  ("eshell/pwd" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("$theme-colors" .
-   [1 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("map-merge" .
-   [1 0 0 0 0 0 0 0 0])
-  ("e" .
-   [9])
-  ("else" .
-   [8 0 0 0])
-  ("border-" .
-   [1 0 0 0 0 0 0])
-  ("bg-white" .
-   [1 0 0 0 0 0 0 0])
-  ("$value" .
-   [7 0 0 0 0 0])
-  ("important" .
-   [2 0 0 0 0 0 0 1 0])
-  ("any" .
-   [6 0 0])
-  ("elems" .
-   [1 0 0 0 0])
-  ("msg" .
-   [16 0 0])
-  ("undefined" .
-   [2 0 1 5 0 1 0 0 0])
-  ("Alerts" .
-   [1 0 0 0 0 0])
-  ("index" .
-   [6 0 0 0 0])
-  ("remove" .
-   [14 0 0 0 0 0])
-  ("entries" .
-   [1 0 0 0 0 0 0])
-  ("attrs" .
-   [1 0 0 0 0])
-  ("forEach" .
-   [13 0 0 0 0 0 1])
-  ("item" .
-   [3 0 0 0])
-  ("indeces" .
-   [4 0 0 0 0 0 0])
-  ("elem" .
-   [2 0 0 0])
-  ("includes" .
-   [1 0 0 0 0 0 0 0])
-  ("is" .
-   [3 0])
-  ("selector" .
-   [3 0 0 0 0 0 0 0])
-  ("duration" .
-   [1 0 0 0 0 0 0 0])
-  ("null" .
-   [31 0 0 0])
-  ("$el" .
-   [3 0 0])
-  ("fill" .
-   [5 0 0 0])
-  ("$input" .
-   [1 0 0 0 0 0])
-  ("addClass" .
-   [0 0 0 1 0 0 0 0])
-  ("fa" .
-   [1 0])
-  ("f" .
-   [3])
-  ("fontAwesomeIcons" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("browser" .
-   [24 0 0 0 0 0 0])
-  ("nm" .
-   [3 0])
-  ("values." .
-   [0 0 0 0 0 1 1])
-  ("breakpoint" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("print" .
-   [4 0 0 0 0])
-  ("grepl" .
-   [6 0 0 0 0])
-  ("fixed" .
-   [5 0 0 0 0])
-  ("classes" .
-   [3 0 0 0 0 0 0])
-  ("v" .
-   [1])
-  ("an" .
-   [1 0])
-  ("caller" .
-   [2 0 0 0 0 0])
-  ("passed" .
-   [1 0 0 0 0 0])
-  ("match.call" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("get" .
-   [10 0 0])
-  ("msgInvalidTooManyValues" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("fun" .
-   [3 0 0])
-  ("invalid" .
-   [1 0 0 0 0 0 0])
-  ("sprintf" .
-   [1 0 0 0 0 0 0])
-  ("ensureBreakpoints" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("render" .
-   [2 0 0 0 0 0])
-  ("node" .
-   [1 0 0 0])
-  ("upload" .
-   [2 0 0 0 0 0])
-  ("uploadButton" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("ls" .
-   [1 0])
-  ("req$CON" .
-   [1 0 0 0 0 0 0])
-  ("req$CONTENT" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("req$CONTENT_TYPE" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("form_contents" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("readLines" .
-   [2 0 0 0 0 0 0 0 0])
-  ("haven::read_por" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("jsonlite::toJSON" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("spss_dat" .
-   [2 0 0 0 0 0 0 0])
-  ("rows" .
-   [17 0 0 1])
-  ("rownames" .
-   [2 0 0 0 0 0 0 0])
-  ("res" .
-   [8 0 0])
-  ("plugin" .
-   [32 0 0 0 0 4])
-  ("defaults" .
-   [5 0 0 0 0 0 0 0])
-  ("options" .
-   [39 0 0 0 0 0 2])
-  ("$table" .
-   [23 0 0 0 0 0])
-  ("parseHeaders" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("makeTable" .
-   [2 0 0 0 0 0 0 0 0])
-  ("headers" .
-   [16 0 0 0 0 0 0])
-  ("key" .
-   [7 0 0])
-  ("keys" .
-   [10 0 0 0])
-  ("sorted" .
-   [1 0 0 0 0 0])
-  ("children" .
-   [38 0 0 0 0 0 0 0])
-  ("parentNode" .
-   [23 0 0 0 0 0 0 0 0 1])
-  ("nsiblings" .
-   [1 0 0 0 0 0 0 0 0])
-  ("siblings" .
-   [7 0 0 0 1 0 1 0])
-  ("querySelector" .
-   [2 0 1 0 1 16 0 0 0 0 1 0 4])
-  ("jsonify" .
-   [2 0 0 0 0 0 0])
-  ("tagName" .
-   [6 0 0 0 2 0 0])
-  ("JSON" .
-   [3 0 0 0])
-  ("classList" .
-   [30 0 0 0 1 0 2 1 1])
-  ("slice" .
-   [6 0 0 0 0])
-  ("style" .
-   [15 0 0 0 0])
-  ("cells" .
-   [7 0 0 0 0])
-  ("clickInside" .
-   [1 0 0 0 0 0 2 0 0 0 0])
-  ("const" .
-   [22 0 0 0 0])
-  ("clickOutside" .
-   [0 0 0 0 0 0 1 1 1 0 0 0])
-  ("contains" .
-   [8 0 0 0 0 0 0 0])
-  ("target" .
-   [14 0 0 0 1 0])
-  ("removeEventListener" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("addEventListener" .
-   [0 0 0 0 0 0 2 1 2 0 0 0 1 0 0 0])
-  ("$pages" .
-   [5 0 0 0 0 0])
-  ("appendTo" .
-   [1 0 0 0 0 0 0 0])
-  ("from" .
-   [14 0 0 0])
-  ("paginate" .
-   [7 0 0 0 0 0 0 0])
-  ("r" .
-   [1])
-  ("hideRows" .
-   [2 0 0 0 0 0 0 0])
-  ("showRows" .
-   [1 0 0 0 0 1 0 0])
-  ("pageTo" .
-   [2 0 0 0 0 0])
-  ("active" .
-   [18 0 0 0 0 0])
-  ("totalitems" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("total" .
-   [2 0 0 0 0])
-  ("items" .
-   [49 0 0 0 0])
-  ("next" .
-   [1 0 0 0])
-  ("join" .
-   [2 0 0 0])
-  ("nav" .
-   [41 0 0])
-  ("each" .
-   [3 0 0 0])
-  ("navNext" .
-   [1 0 0 0 0 0 0])
-  ("navPrev" .
-   [1 0 0 0 0 0 0])
-  ("n" .
-   [1])
-  ("$plugin" .
-   [10 0 0 1 0 0 0])
-  ("empty" .
-   [1 0 0 0 0])
-  ("detach" .
-   [0 0 0 1 0 0])
-  ("auto" .
-   [1 0 0 0])
-  ("filled" .
-   [1 0 0 0 0 0])
-  ("fillers" .
-   [3 0 0 0 0 0 0])
-  ("option" .
-   [3 0 0 0 0 0])
-  ("th" .
-   [2 0])
-  ("solid" .
-   [1 0 0 0 0])
-  ("fn" .
-   [2 0])
-  ("column" .
-   [4 0 0 0 0 0])
-  ("action" .
-   [5 0 0 0 0 0])
-  ("variables" .
-   [11 0 0 0 0 0 0 0 0])
-  ("$headers" .
-   [1 0 0 0 0 0 0 0])
-  ("collapse" .
-   [1 0 0 0 0 0 0 0])
-  ("positions" .
-   [2 0 0 0 0 0 0 0 0])
-  ("prototype" .
-   [0 0 0 1 0 2 0 0 1])
-  ("sparks" .
-   [1 0 0 0 0 0])
-  ("span" .
-   [1 0 0 0])
-  ("trigger" .
-   [1 0 0 0 0 0 0])
-  ("custom" .
-   [1 0 0 0 0 0])
-  ("line" .
-   [1 0 0 0])
-  ("SELF" .
-   [1 0 0 0])
-  ("labels" .
-   [3 0 0 0 0 0])
-  ("round" .
-   [1 0 0 0 0])
-  ("server" .
-   [3 0 0 0 0 0])
-  ("tabTabs" .
-   [1 0 0 0 0 0 0])
-  ("x$uri" .
-   [1 0 0 0 0])
-  ("recursive" .
-   [0 0 0 0 1 0 0 0 0])
-  ("fs::path" .
-   [2 0 0 0 0 0 0 0])
-  ("ext" .
-   [1 0 0])
-  ("base_dir" .
-   [1 0 0 0 0 0 0 0])
-  ("jekyll" .
-   [1 0 0 0 0 0])
-  ("js2-mode" .
-   [3 0 0 0 0 0 0 0])
-  ("_colors" .
-   [1 0 0 0 0 0 0])
-  ("scale" .
-   [1 0 0 0 0])
-  ("linear" .
-   [1 0 0 0 0 0])
-  ("domain" .
-   [1 0 0 0 0 0])
-  ("hsl" .
-   [2 0 0])
-  ("createColorRange" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("colors" .
-   [5 0 0 0 0 0])
-  ("legenditem" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("trans" .
-   [0 0 0 1 0])
-  ("d3" .
-   [3 0])
-  ("varmeta" .
-   [2 0 0 0 0 0 0])
-  ("extent" .
-   [1 0 0 0 0 0])
-  ("sort" .
-   [2 0 0 0])
-  ("max" .
-   [3 0 0])
-  ("ticks" .
-   [1 0 0 0 0])
-  ("_tick" .
-   [1 0 0 0 0])
-  ("start" .
-   [1 0 0 0 0])
-  ("count" .
-   [1 0 0 0 0])
-  ("legend" .
-   [2 0 0 0 0 0])
-  ("propert" .
-   [0 0 1 0 0 0 0])
-  ("debugger" .
-   [0 0 0 0 0 1 0 0])
-  ("debugonce" .
-   [0 0 0 0 0 0 0 3 0])
-  ("rug" .
-   [1 0 0])
-  ("blocks" .
-   [8 0 0 0 0 0])
-  ("as_page" .
-   [0 0 0 0 0 0 1])
-  ("traceback" .
-   [1 0 0 0 0 0 0 0 0])
-  ("getwd" .
-   [1 0 0 0 0])
-  ("./inst/Docker.dmg" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("VOLUME" .
-   [3 0 0 0 0 0])
-  ("hdiutil" .
-   [1 0 0 0 0 0 0])
-  ("DOCKER" .
-   [2 0 0 0 0 0])
-  ("docker" .
-   [2 0 0 0 0 0])
-  ("-rf" .
-   [1 0 0])
-  ("/Volumes/Docker" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
-  ("/Applications" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 1])
-  ("app" .
-   [0 0 1])
-  ("progressOutlet" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("$bar" .
-   [5 0 0 0])
-  ("outlet" .
-   [4 0 0 0 0 0])
-  ("$outlet" .
-   [3 0 0 0 0 0 0])
-  ("find" .
-   [4 0 0 0])
-  ("ui" .
-   [3 0])
-  ("flexible" .
-   [0 0 0 0 1 0 0 0])
-  ("observeEvent" .
-   [1 0 0 0 0 0 0 1 1 0 0 1])
-  ("input$inc" .
-   [1 0 0 0 0 0 0 0 0])
-  ("--abbrev-ref" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("HEAD" .
-   [1 0 0 0])
-  ("session$sendMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("session$sendCustomMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("navPane" .
-   [2 0 0 0 0 0 0])
-  ("panes" .
-   [4 0 0 0 0])
-  ("pane" .
-   [5 0 0 0])
-  ("before" .
-   [2 0 0 0 0 0])
-  ("tag" .
-   [3 0 0])
-  ("tagHasClass" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("NextMethod" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("x$children" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("tagReduce" .
-   [0 0 0 0 0 0 0 0 1])
-  ("Array" .
-   [4 0 0 0 0])
-  ("forms" .
-   [1 0 0 0 0])
-  ("glue" .
-   [3 0 0 0])
-  ("glue_collapse" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("group_by" .
-   [1 0 0 0 0 0 0 0])
-  ("summarise" .
-   [4 0 0 0 0 0 0 0 0])
-  ("example" .
-   [1 0 0 0 0 0 0])
-  ("path_docs" .
-   [2 0 0 0 0 0 0 0 0])
-  ("copy_plugins" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("system.file" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("file" .
-   [9 0 0 0])
-  ("file_move" .
-   [1 0 0 0 0 0 0 0 0])
-  ("normalize_links" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("replace" .
-   [2 0 0 0 0 0 0])
-  ("replace_links" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("param" .
-   [2 0 0 0 0])
-  ("section" .
-   [5 0 0 0 0 0 0])
-  ("get_family" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("families" .
-   [1 0 0 0 0 0 0 0])
-  ("margin" .
-   [1 0 0 0 0 0])
-  ("template" .
-   [1 0 0 0 0 0 0 0])
-  ("appendChild" .
-   [0 0 0 0 1 0 0 0 0 0 0])
-  ("choice" .
-   [4 0 0 0 0 0])
-  ("checked" .
-   [3 0 0 0 0 0 0])
-  ("_select" .
-   [1 0 0 0 0 0 0])
-  ("irs" .
-   [1 0 0])
-  ("hidden" .
-   [2 0 0 0 0 0])
-  ("ionRangeSlider" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("accept" .
-   [2 0 0 0 0 0])
-  ("tab" .
-   [2 0 0])
-  ("identical" .
-   [1 0 0 0 0 0 0 0 0])
-  ("coerce_selected" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("is.logical" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("session$sendInputMessage" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("buttonInput" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("updateNavInput" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("yonder::showNavTarget" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("MenuInput" .
-   [0 0 0 3 1 0 0 0 0])
-  ("super" .
-   [7 0 0 0 0])
-  ("TYPE" .
-   [18 0 0 0])
-  ("typeof" .
-   [2 0 0 0 0 0])
-  ("_value" .
-   [2 0 0 0 0 0])
-  ("_callback" .
-   [1 0 0 0 0 0 0 0 0])
-  ("initialize" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("static" .
-   [19 0 0 0 0 0])
-  ("Store" .
-   [5 0 0 0 0])
-  ("Input" .
-   [4 0 0 0 0])
-  ("js" .
-   [6 0])
-  ("setData" .
-   [1 0 0 0 0 0 0])
-  ("t" .
-   [1])
-  ("registerInputHandler" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("force" .
-   [1 0 0 0 0])
-  ("tag_is_identical" .
+  ("expand-abbrev" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("expand-file-name" .
+   [0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2])
+  ("neo-keymap-style" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("findChild" .
-   [4 0 0 0 0 0 0 0 0])
-  ("asArray" .
-   [0 0 1 3 1 0 0])
-  ("isNodeList" .
-   [2 0 0 0 0 0 0 1 0 0])
-  ("isArray" .
-   [0 0 0 0 1 0 0])
-  ("found" .
-   [1 0 0 0 0])
-  ("activateElement" .
-   [0 0 0 0 0 0 0 0 2 0 0 1 0 0 0])
-  ("deactivateElement" .
-   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("elements" .
-   [6 0 0 0 0 0 0 0])
-  ("xref-js2" .
-   [1 0 0 0 0 0 0 0])
-  ("navInput" .
-   [7 0 0 0 0 0 0 0])
-  ("poly-markdown-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("FileInput" .
-   [3 0 0 0 0 0 0 0 0])
-  ("_upload" .
-   [1 0 0 0 0 0 0])
-  ("files" .
-   [7 0 0 0 0])
-  ("findClosest" .
-   [0 0 0 0 0 0 2 2 0 0 0])
-  ("fileInput" .
-   [1 0 0 0 0 0 0 0 1])
-  ("uploadUrl" .
-   [1 0 0 0 0 0 0 0 0])
-  ("_counter" .
-   [1 0 0 0 0 0 0 0])
-  ("Sys.getenv" .
-   [1 0 0 1 0 0 0 0 0 0])
-  ("ADDON_TEXT" .
-   [1 0 0 0 0 0 0 0 0 2])
-  ("createElement" .
-   [0 0 0 1 0 1 0 0 0 0 0 0 0])
-  ("newLeft" .
-   [3 0 0 0 0 0 0])
-  ("LEFT_ADDONS" .
-   [0 0 0 0 2 0 0 0 0 0 0])
-  ("insertAdjacentElement" .
-   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("afterbegin" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("leftAddons" .
-   [0 0 0 0 0 2 1 0 0 0])
-  ("newRight" .
-   [2 0 0 0 0 0 0 1])
-  ("RIGHT_ADDONS" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("rightAddons" .
-   [0 0 0 0 0 0 0 1 0 0 2])
-  ("object" .
-   [1 0 0 0 0 0])
-  ("objs" .
-   [1 0 0 0])
-  ("forEachElement" .
-   [0 0 0 0 0 0 0 0 1 0 1 0 0 0])
-  ("walk" .
-   [4 0 0 0])
-  ("CHANGE" .
-   [1 0 0 0 0 0])
-  ("INPUT_CHILD" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("group" .
-   [1 0 0 0 1])
-  ("groupInput" .
-   [1 0 0 0 0 0 2 0 0 1])
-  ("split-window-sensibly" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("split-window-preferred-function" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("split-window-really-sensibly" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("initial-buffer-choice" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
-  ("NAME" .
-   [4 0 0 0])
-  ("devtools::release_checks" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("install" .
-   [1 0 0 0 0 0 0])
-  ("devtools::submit_cran" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("targets" .
-   [1 0 0 0 0 0 0])
-  ("build" .
-   [1 0 0 0 0])
-  ("build_home" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("build_" .
-   [0 0 0 0 0 1])
-  ("build_h…" .
-   [0 0 0 0 0 0 0 1])
-  ("style_class_add" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("with_deps" .
-   [1 0 0 0 0 0 0 0 0])
-  ("formGroup" .
-   [1 0 0 0 0 0 0 0 0])
-  ("HTTPS_PROXY" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("OPT" .
-   [3 0 0])
-  ("arrow" .
-   [1 0 0 0 0])
-  ("dir.create" .
-   [0 0 0 0 2 1 0 0 0 0])
-  ("dir.exists" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("Files" .
-   [0 0 0 0 1])
-  ("Wall" .
-   [0 0 0 1])
-  ("Map" .
-   [1 0 0])
-  ("file.copy" .
-   [0 0 0 0 0 0 0 1 0])
-  ("list.files" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("DIR/site" .
-   [1 0 0 0 0 0 0 0])
-  ("pkgdown::build_site" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("renv::install" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("load-file" .
-   [1 0 0 0 0 0 0 0 0])
-  ("flatten_para" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("style_prefix" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("x$" .
-   [1 0])
-  ("x$prefix" .
-   [1 0 0 0 0 0 0 0])
-  ("default" .
-   [1 0 0 0 0 0 0])
-  ("all-the-icons" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("<--" .
-   [0 0 1])
-  ("text-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("neo-window-width" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("neo-confirm-delete-directory-recursively" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("off-p" .
-   [4 0 0 0 0])
-  ("neo-confirm-kill-buffers-for-files-in-directory" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("neo-hide-cursor" .
+  ("neo-autorefresh" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("neo-vc-integration" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("neo-autorefresh" .
+  ("neo-hide-cursor" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("neo-keymap-style" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("expand-file-name" .
-   [0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2])
-  ("expand-abbrev" .
-   [0 0 0 1 1 0 0 0 0 0 0 0 0])
-  ("eshell/pwd" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("string" .
+  ("neo-confirm-kill-buffers-for-files-in-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("off-p" .
+   [4 0 0 0 0])
+  ("neo-confirm-delete-directory-recursively" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-window-width" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("text-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("<--" .
+   [0 0 1])
+  ("all-the-icons" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("default" .
+   [1 0 0 0 0 0 0])
+  ("x$prefix" .
+   [1 0 0 0 0 0 0 0])
+  ("x$" .
+   [1 0])
+  ("style_prefix" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("flatten_para" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("load-file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("renv::install" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pkgdown::build_site" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("DIR/site" .
+   [1 0 0 0 0 0 0 0])
+  ("list.files" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("file.copy" .
+   [0 0 0 0 0 0 0 1 0])
+  ("Map" .
+   [1 0 0])
+  ("Wall" .
+   [0 0 0 1])
+  ("Files" .
+   [0 0 0 0 1])
+  ("dir.exists" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("dir.create" .
+   [0 0 0 0 2 1 0 0 0 0])
+  ("arrow" .
+   [1 0 0 0 0])
+  ("OPT" .
+   [3 0 0])
+  ("HTTPS_PROXY" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("formGroup" .
+   [1 0 0 0 0 0 0 0 0])
+  ("with_deps" .
+   [1 0 0 0 0 0 0 0 0])
+  ("style_class_add" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("build_h…" .
+   [0 0 0 0 0 0 0 1])
+  ("build_" .
+   [0 0 0 0 0 1])
+  ("build_home" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("build" .
+   [1 0 0 0 0])
+  ("targets" .
+   [1 0 0 0 0 0 0])
+  ("devtools::submit_cran" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("install" .
+   [1 0 0 0 0 0 0])
+  ("devtools::release_checks" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("NAME" .
+   [4 0 0 0])
+  ("initial-buffer-choice" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("split-window-really-sensibly" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("split-window-preferred-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("split-window-sensibly" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("groupInput" .
+   [1 0 0 0 0 0 2 0 0 1])
+  ("group" .
+   [1 0 0 0 1])
+  ("INPUT_CHILD" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("CHANGE" .
    [1 0 0 0 0 0])
-  ("split-string" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])))
+  ("walk" .
+   [4 0 0 0])
+  ("forEachElement" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 0 0])
+  ("objs" .
+   [1 0 0 0])
+  ("object" .
+   [1 0 0 0 0 0])
+  ("rightAddons" .
+   [0 0 0 0 0 0 0 1 0 0 2])
+  ("RIGHT_ADDONS" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("newRight" .
+   [2 0 0 0 0 0 0 1])
+  ("leftAddons" .
+   [0 0 0 0 0 2 1 0 0 0])
+  ("afterbegin" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("insertAdjacentElement" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("LEFT_ADDONS" .
+   [0 0 0 0 2 0 0 0 0 0 0])
+  ("newLeft" .
+   [3 0 0 0 0 0 0])
+  ("createElement" .
+   [0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("ADDON_TEXT" .
+   [1 0 0 0 0 0 0 0 0 2])
+  ("Sys.getenv" .
+   [1 0 0 1 0 0 0 0 0 0])
+  ("_counter" .
+   [1 0 0 0 0 0 0 0])
+  ("uploadUrl" .
+   [1 0 0 0 0 0 0 0 0])
+  ("fileInput" .
+   [1 0 0 0 0 0 0 0 1])
+  ("findClosest" .
+   [0 0 0 0 0 0 2 2 0 0 0])
+  ("files" .
+   [7 0 0 0 0])
+  ("_upload" .
+   [1 0 0 0 0 0 0])
+  ("FileInput" .
+   [3 0 0 0 0 0 0 0 0])
+  ("poly-markdown-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("navInput" .
+   [7 0 0 0 0 0 0 0])
+  ("xref-js2" .
+   [1 0 0 0 0 0 0 0])
+  ("elements" .
+   [6 0 0 0 0 0 0 0])
+  ("deactivateElement" .
+   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("activateElement" .
+   [0 0 0 0 0 0 0 0 2 0 0 1 0 0 0])
+  ("found" .
+   [1 0 0 0 0])
+  ("isArray" .
+   [0 0 0 0 1 0 0])
+  ("isNodeList" .
+   [2 0 0 0 0 0 0 1 0 0])
+  ("asArray" .
+   [0 0 1 3 1 0 0])
+  ("findChild" .
+   [4 0 0 0 0 0 0 0 0])
+  ("tag_is_identical" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("force" .
+   [1 0 0 0 0])
+  ("registerInputHandler" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("t" .
+   [1])
+  ("setData" .
+   [1 0 0 0 0 0 0])
+  ("js" .
+   [6 0])
+  ("Input" .
+   [4 0 0 0 0])
+  ("Store" .
+   [5 0 0 0 0])
+  ("static" .
+   [19 0 0 0 0 0])
+  ("initialize" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("_callback" .
+   [1 0 0 0 0 0 0 0 0])
+  ("_value" .
+   [2 0 0 0 0 0])
+  ("typeof" .
+   [2 0 0 0 0 0])
+  ("TYPE" .
+   [18 0 0 0])
+  ("super" .
+   [7 0 0 0 0])
+  ("MenuInput" .
+   [0 0 0 3 1 0 0 0 0])
+  ("yonder::showNavTarget" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("updateNavInput" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("buttonInput" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("session$sendInputMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("is.logical" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("coerce_selected" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("identical" .
+   [1 0 0 0 0 0 0 0 0])
+  ("tab" .
+   [2 0 0])
+  ("accept" .
+   [2 0 0 0 0 0])
+  ("ionRangeSlider" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hidden" .
+   [2 0 0 0 0 0])
+  ("irs" .
+   [1 0 0])
+  ("_select" .
+   [1 0 0 0 0 0 0])
+  ("checked" .
+   [3 0 0 0 0 0 0])
+  ("choice" .
+   [4 0 0 0 0 0])
+  ("appendChild" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("template" .
+   [1 0 0 0 0 0 0 0])
+  ("margin" .
+   [1 0 0 0 0 0])
+  ("families" .
+   [1 0 0 0 0 0 0 0])
+  ("get_family" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("section" .
+   [5 0 0 0 0 0 0])
+  ("param" .
+   [2 0 0 0 0])
+  ("replace_links" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("replace" .
+   [2 0 0 0 0 0 0])
+  ("normalize_links" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("file_move" .
+   [1 0 0 0 0 0 0 0 0])
+  ("file" .
+   [9 0 0 0])
+  ("system.file" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("copy_plugins" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("path_docs" .
+   [2 0 0 0 0 0 0 0 0])
+  ("example" .
+   [1 0 0 0 0 0 0])
+  ("summarise" .
+   [4 0 0 0 0 0 0 0 0])
+  ("group_by" .
+   [1 0 0 0 0 0 0 0])
+  ("glue_collapse" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("glue" .
+   [3 0 0 0])
+  ("forms" .
+   [1 0 0 0 0])
+  ("Array" .
+   [4 0 0 0 0])
+  ("tagReduce" .
+   [0 0 0 0 0 0 0 0 1])
+  ("x$children" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("NextMethod" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("tagHasClass" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("tag" .
+   [3 0 0])
+  ("before" .
+   [2 0 0 0 0 0])
+  ("pane" .
+   [5 0 0 0])
+  ("panes" .
+   [4 0 0 0 0])
+  ("navPane" .
+   [2 0 0 0 0 0 0])
+  ("session$sendCustomMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("session$sendMessage" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("HEAD" .
+   [1 0 0 0])
+  ("--abbrev-ref" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("input$inc" .
+   [1 0 0 0 0 0 0 0 0])
+  ("observeEvent" .
+   [1 0 0 0 0 0 0 1 1 0 0 1])
+  ("flexible" .
+   [0 0 0 0 1 0 0 0])
+  ("ui" .
+   [3 0])
+  ("find" .
+   [4 0 0 0])
+  ("$outlet" .
+   [3 0 0 0 0 0 0])
+  ("outlet" .
+   [4 0 0 0 0 0])
+  ("$bar" .
+   [5 0 0 0])
+  ("progressOutlet" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("app" .
+   [0 0 1])
+  ("/Applications" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("/Volumes/Docker" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("-rf" .
+   [1 0 0])
+  ("docker" .
+   [2 0 0 0 0 0])
+  ("DOCKER" .
+   [2 0 0 0 0 0])
+  ("hdiutil" .
+   [1 0 0 0 0 0 0])
+  ("VOLUME" .
+   [3 0 0 0 0 0])
+  ("./inst/Docker.dmg" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("getwd" .
+   [1 0 0 0 0])
+  ("traceback" .
+   [1 0 0 0 0 0 0 0 0])
+  ("as_page" .
+   [0 0 0 0 0 0 1])
+  ("blocks" .
+   [8 0 0 0 0 0])
+  ("rug" .
+   [1 0 0])
+  ("debugonce" .
+   [0 0 0 0 0 0 0 3 0])
+  ("debugger" .
+   [0 0 0 0 0 1 0 0])
+  ("propert" .
+   [0 0 1 0 0 0 0])
+  ("legend" .
+   [2 0 0 0 0 0])
+  ("count" .
+   [1 0 0 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("_tick" .
+   [1 0 0 0 0])
+  ("ticks" .
+   [1 0 0 0 0])
+  ("max" .
+   [3 0 0])
+  ("sort" .
+   [2 0 0 0])
+  ("extent" .
+   [1 0 0 0 0 0])
+  ("varmeta" .
+   [2 0 0 0 0 0 0])
+  ("d3" .
+   [3 0])
+  ("trans" .
+   [0 0 0 1 0])
+  ("legenditem" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("colors" .
+   [5 0 0 0 0 0])
+  ("createColorRange" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("hsl" .
+   [2 0 0])
+  ("domain" .
+   [1 0 0 0 0 0])
+  ("linear" .
+   [1 0 0 0 0 0])
+  ("scale" .
+   [1 0 0 0 0])
+  ("_colors" .
+   [1 0 0 0 0 0 0])
+  ("js2-mode" .
+   [3 0 0 0 0 0 0 0])
+  ("jekyll" .
+   [1 0 0 0 0 0])
+  ("base_dir" .
+   [1 0 0 0 0 0 0 0])
+  ("ext" .
+   [1 0 0])
+  ("fs::path" .
+   [2 0 0 0 0 0 0 0])
+  ("recursive" .
+   [0 0 0 0 1 0 0 0 0])
+  ("x$uri" .
+   [1 0 0 0 0])
+  ("tabTabs" .
+   [1 0 0 0 0 0 0])
+  ("server" .
+   [3 0 0 0 0 0])
+  ("round" .
+   [3 0 0 0 0])
+  ("labels" .
+   [3 0 0 0 0 0])
+  ("SELF" .
+   [1 0 0 0])
+  ("line" .
+   [1 0 0 0])
+  ("custom" .
+   [1 0 0 0 0 0])
+  ("trigger" .
+   [1 0 0 0 0 0 0])
+  ("span" .
+   [1 0 0 0])
+  ("sparks" .
+   [1 0 0 0 0 0])
+  ("prototype" .
+   [0 0 0 1 0 2 0 0 1])
+  ("positions" .
+   [2 0 0 0 0 0 0 0 0])
+  ("collapse" .
+   [1 0 0 0 0 0 0 0])
+  ("$headers" .
+   [1 0 0 0 0 0 0 0])
+  ("variables" .
+   [11 0 0 0 0 0 0 0 0])
+  ("action" .
+   [5 0 0 0 0 0])
+  ("column" .
+   [6 0 0 0 0 0])
+  ("fn" .
+   [2 0])
+  ("solid" .
+   [1 0 0 0 0])
+  ("th" .
+   [2 0])
+  ("option" .
+   [3 0 0 0 0 0])
+  ("fillers" .
+   [3 0 0 0 0 0 0])
+  ("filled" .
+   [1 0 0 0 0 0])
+  ("auto" .
+   [3 0 0 0])
+  ("detach" .
+   [0 0 0 1 0 0])
+  ("empty" .
+   [1 0 0 0 0])
+  ("$plugin" .
+   [10 0 0 1 0 0 0])
+  ("n" .
+   [1])
+  ("navPrev" .
+   [1 0 0 0 0 0 0])
+  ("navNext" .
+   [1 0 0 0 0 0 0])
+  ("each" .
+   [3 0 0 0])
+  ("nav" .
+   [41 0 0])
+  ("join" .
+   [2 0 0 0])
+  ("next" .
+   [1 0 0 0])
+  ("items" .
+   [49 0 0 0 0])
+  ("total" .
+   [2 0 0 0 0])
+  ("totalitems" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("active" .
+   [18 0 0 0 0 0])
+  ("pageTo" .
+   [2 0 0 0 0 0])
+  ("showRows" .
+   [1 0 0 0 0 1 0 0])
+  ("hideRows" .
+   [2 0 0 0 0 0 0 0])
+  ("r" .
+   [1])
+  ("paginate" .
+   [7 0 0 0 0 0 0 0])
+  ("from" .
+   [14 0 0 0])
+  ("appendTo" .
+   [1 0 0 0 0 0 0 0])
+  ("$pages" .
+   [5 0 0 0 0 0])
+  ("addEventListener" .
+   [0 0 0 0 0 0 2 1 2 0 0 0 1 0 0 0])
+  ("removeEventListener" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("target" .
+   [14 0 0 0 1 0])
+  ("contains" .
+   [8 0 0 0 0 0 0 0])
+  ("clickOutside" .
+   [0 0 0 0 0 0 1 1 1 0 0 0])
+  ("const" .
+   [22 0 0 0 0])
+  ("clickInside" .
+   [1 0 0 0 0 0 2 0 0 0 0])
+  ("cells" .
+   [7 0 0 0 0])
+  ("style" .
+   [15 0 0 0 0])
+  ("slice" .
+   [6 0 0 0 0])
+  ("classList" .
+   [30 0 0 0 1 0 2 1 1])
+  ("JSON" .
+   [3 0 0 0])
+  ("tagName" .
+   [6 0 0 0 2 0 0])
+  ("jsonify" .
+   [2 0 0 0 0 0 0])
+  ("querySelector" .
+   [2 0 1 0 1 16 0 0 0 0 1 0 4])
+  ("siblings" .
+   [7 0 0 0 1 0 1 0])
+  ("nsiblings" .
+   [1 0 0 0 0 0 0 0 0])
+  ("parentNode" .
+   [23 0 0 0 0 0 0 0 0 1])
+  ("children" .
+   [38 0 0 0 0 0 0 0])
+  ("sorted" .
+   [1 0 0 0 0 0])
+  ("keys" .
+   [10 0 0 0])
+  ("key" .
+   [7 0 0])
+  ("headers" .
+   [16 0 0 0 0 0 0])
+  ("makeTable" .
+   [2 0 0 0 0 0 0 0 0])
+  ("parseHeaders" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("$table" .
+   [23 0 0 0 0 0])
+  ("options" .
+   [39 0 0 0 0 0 2])
+  ("defaults" .
+   [5 0 0 0 0 0 0 0])
+  ("plugin" .
+   [32 0 0 0 0 4])
+  ("res" .
+   [8 0 0])
+  ("rownames" .
+   [2 0 0 0 0 0 0 0])
+  ("rows" .
+   [17 0 0 1])
+  ("spss_dat" .
+   [2 0 0 0 0 0 0 0])
+  ("jsonlite::toJSON" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("haven::read_por" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("readLines" .
+   [2 0 0 0 0 0 0 0 0])
+  ("form_contents" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("req$CONTENT_TYPE" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("req$CONTENT" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("req$CON" .
+   [1 0 0 0 0 0 0])
+  ("ls" .
+   [1 0])
+  ("uploadButton" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("upload" .
+   [2 0 0 0 0 0])
+  ("node" .
+   [1 0 0 0])
+  ("render" .
+   [2 0 0 0 0 0])
+  ("ensureBreakpoints" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sprintf" .
+   [1 0 0 0 0 0 0])
+  ("invalid" .
+   [1 0 0 0 0 0 0])
+  ("fun" .
+   [3 0 0])
+  ("msgInvalidTooManyValues" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("get" .
+   [10 0 0])
+  ("match.call" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("passed" .
+   [1 0 0 0 0 0])
+  ("caller" .
+   [2 0 0 0 0 0])
+  ("an" .
+   [1 0])
+  ("v" .
+   [1])
+  ("classes" .
+   [3 0 0 0 0 0 0])
+  ("fixed" .
+   [6 0 0 0 0])
+  ("grepl" .
+   [6 0 0 0 0])
+  ("print" .
+   [4 0 0 0 0])
+  ("breakpoint" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("values." .
+   [0 0 0 0 0 1 1])
+  ("nm" .
+   [3 0])
+  ("browser" .
+   [24 0 0 0 0 0 0])
+  ("fontAwesomeIcons" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("f" .
+   [3])
+  ("fa" .
+   [1 0])
+  ("addClass" .
+   [0 0 0 1 0 0 0 0])
+  ("$input" .
+   [1 0 0 0 0 0])
+  ("fill" .
+   [5 0 0 0])
+  ("$el" .
+   [3 0 0])
+  ("null" .
+   [31 0 0 0])
+  ("duration" .
+   [1 0 0 0 0 0 0 0])
+  ("selector" .
+   [3 0 0 0 0 0 0 0])
+  ("is" .
+   [3 0])
+  ("includes" .
+   [1 0 0 0 0 0 0 0])
+  ("elem" .
+   [2 0 0 0])
+  ("indeces" .
+   [4 0 0 0 0 0 0])
+  ("item" .
+   [3 0 0 0])
+  ("forEach" .
+   [13 0 0 0 0 0 1])
+  ("attrs" .
+   [1 0 0 0 0])
+  ("entries" .
+   [1 0 0 0 0 0 0])
+  ("remove" .
+   [14 0 0 0 0 0])
+  ("index" .
+   [6 0 0 0 0])
+  ("Alerts" .
+   [1 0 0 0 0 0])
+  ("undefined" .
+   [2 0 1 5 0 1 0 0 0])
+  ("msg" .
+   [16 0 0])
+  ("elems" .
+   [1 0 0 0 0])
+  ("any" .
+   [6 0 0])
+  ("important" .
+   [2 0 0 0 0 0 0 1 0])
+  ("$value" .
+   [7 0 0 0 0 0])
+  ("bg-white" .
+   [1 0 0 0 0 0 0 0])
+  ("border-" .
+   [1 0 0 0 0 0 0])
+  ("else" .
+   [8 0 0 0])
+  ("e" .
+   [9])
+  ("map-merge" .
+   [1 0 0 0 0 0 0 0 0])
+  ("$theme-colors" .
+   [2 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("mutate_all" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("mutate_at" .
+   [0 0 0 0 0 0 0 0 1])
+  ("vapply" .
+   [4 0 0 0 0 0])
+  ("filter_all" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("in" .
+   [10 0])
+  ("filter_if" .
+   [2 0 0 0 0 0 0 0 0])
+  ("cat" .
+   [4 0 0])
+  ("format_csv" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pull" .
+   [1 0 0 0])
+  ("head" .
+   [3 0 0 0])
+  ("filter" .
+   [9 0 0 0 0 0])
+  ("str_detect" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("select_if" .
+   [0 0 0 0 0 0 0 0 1])
+  ("unique" .
+   [1 0 0 0 0 0])
+  ("select" .
+   [16 0 0 0 0 0])
+  ("mutate" .
+   [4 0 0 0 0 0])
+  ("table" .
+   [3 0 0 0 0])
+  ("final_dat$year" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("read_csv" .
+   [3 0 0 0 0 0 0 0])
+  ("final_dat" .
+   [11 0 0 0 0 0 1 0 0])
+  ("outpath" .
+   [1 0 0 0 0 0 0])
+  ("path" .
+   [16 0 0 0])
+  ("find_root" .
+   [1 0 0 0 0 0 0 0 0])
+  ("root" .
+   [1 0 0 0])
+  ("filepath" .
+   [1 0 0 0 0 0 0 0])
+  ("choices" .
+   [7 0 0 0 0 0 0])
+  ("ivy" .
+   [2 0 0])
+  ("look" .
+   [1 0 0 0])
+  ("new" .
+   [2 0 0])
+  ("with" .
+   [1 0 0 0])
+  ("tools" .
+   [1 0 0 0 0])
+  ("functions" .
+   [1 0 0 0 0 0 0 0 0])
+  ("familiar" .
+   [1 0 0 0 0 0 0 0])
+  ("view-file-other-window" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("size" .
+   [4 0 0 0])
+  ("NULL" .
+   [23 0 0 0])
+  ("init" .
+   [2 0 0 0])
+  ("kbd" .
+   [2 0 0])
+  ("global-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ace-window" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("TRUE" .
+   [11 0 0 0])
+  ("dividers" .
+   [1 0 0 0 0 0 0 0])
+  ("values" .
+   [42 0 0 0 0 0])
+  ("which" .
+   [2 0 0 0 0])
+  ("disabled" .
+   [4 0 0 0 0 0 0 0])
+  ("warning" .
+   [1 0 0 0 0 0 0])
+  ("all" .
+   [10 0 0])
+  ("is.null" .
+   [21 0 0 0 0 0 0])
+  ("paste0" .
+   [4 0 0 0 0 0])
+  ("call." .
+   [1 0 0 0 0])
+  ("left" .
+   [3 0 0 0])
+  ("stop" .
+   [18 0 0 0])
+  ("FALSE" .
+   [12 0 0 0 0])
+  ("length" .
+   [35 0 0 1 0 0])
+  ("direction" .
+   [4 0 0 0 0 0 0 0 0])
+  ("re" .
+   [9 0])
+  ("if" .
+   [45 0])
+  ("library" .
+   [12 0 0 0 0 0 0])
+  ("message" .
+   [3 0 0 0 0 0 0])
+  ("emacs" .
+   [2 0 0 0 0])
+  ("EMACS" .
+   [0 0 0 0 1])
+  ("collapsible" .
+   [0 0 0 0 0 0 0 1 0 0 1])
+  ("include" .
+   [4 0 0 0 0 0 0])
+  ("fal" .
+   [1 0 0])
+  ("recipe" .
+   [7 0 0 0 0 0])
+  ("college" .
+   [1 0 0 0 0 0 0])
+  ("zissou" .
+   [1 0 0 0 0 0])
+  ("false" .
+   [10 0 0 0 0])
+  ("clean" .
+   [3 0 0 0 0])
+  ("scssFiles" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cssFiles" .
+   [4 0 0 0 0 0 0 0])
+  ("sass" .
+   [2 0 0 0])
+  ("presets" .
+   [1 0 0 0 0 0 0])
+  ("babel" .
+   [1 0 0 0 0])
+  ("E44C44" .
+   [0 0 0 1 0 0])
+  ("o" .
+   [1])
+  ("FFFF00" .
+   [1 0 0 0 0 0])
+  ("color" .
+   [13 0 0 0 0])
+  ("FF00FF" .
+   [1 0 0 0 0 0])
+  ("foo" .
+   [1 0 0])
+  ("highlight" .
+   [5 0 0 0 0 0 0 0 1])
+  ("c" .
+   [5])
+  ("a" .
+   [1])
+  ("code" .
+   [5 0 0 0])
+  ("FFFFFF" .
+   [8 0 0 0 0 0])
+  ("font" .
+   [0 0 0 1])
+  ("font-size" .
+   [0 2 0 0 0 0 0 0 0])
+  ("author" .
+   [1 0 0 0 0 0])
+  ("page" .
+   [9 0 0 0])
+  ("About" .
+   [1 0 0 0 0])
+  ("web-mode-enable-auto-closing" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("ac-source-abbrev" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-source-words-in-buffer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-source-css-property" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("web-mode-ac-sources-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("web-mode-css-indent-offset" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [26 0 0 5])
+  ("auto-mode-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("add-to-list" .
+   [4 0 0 0 0 0 0 0 0 0 2])
+  ("web-mode" .
+   [0 0 0 1 0 0 0 1])
+  ("require" .
+   [10 0 0 2 0 0 2])
+  ("Printf" .
+   [1 0 0 0 0 0])
+  ("fmt" .
+   [1 0 0])
+  ("import" .
+   [15 0 0 0 1 0])
+  ("package" .
+   [6 0 0 1 0 0 0])
+  ("range" .
+   [18 1 0 0 0])
+  ("func" .
+   [0 0 0 2])
+  ("exec-path-from-shell-copy-env" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("MAGICK_HOME" .
+   [0 0 0 0 0 0 1 0 0 0 1])
+  ("html" .
+   [4 0 0 2])
+  ("meta" .
+   [4 0 0 0])
+  ("title" .
+   [7 0 0 0 0])
+  ("material-components-web" .
+   [0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("class" .
+   [44 0 0 0 2])
+  ("mdc-typography" .
+   [0 0 1 0 0 1 0 0 0 0 0 0 0 1])
+  ("button" .
+   [10 0 0 0 0 1])
+  ("mdc-button" .
+   [0 0 0 0 0 0 1 1 0 0])
+  ("body" .
+   [3 0 1 0])
+  ("mdc-typography--display1" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Hello" .
+   [1 0 0 0 0])
+  ("world" .
+   [1 0 0 0 0])
+  ("type" .
+   [28 0 0 0])
+  ("mdc-textfield" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 3])
+  ("firstname" .
+   [2 0 0 0 0 0 0 0 0])
+  ("label" .
+   [5 0 0 0 0])
+  ("mdc-form-field" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("data-mdc-auto-init" .
+   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("MDCTextfield" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("input" .
+   [35 0 0 0 0])
+  ("text" .
+   [15 0 0 0])
+  ("mdc-textfield__input" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("lastname" .
+   [1 0 0 0 0 0 0 0])
+  ("mdc-button--raised" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("mdc-button--primary" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("form" .
+   [3 0 0 0])
+  ("greeting" .
+   [2 0 0 0 0 0 0 0])
+  ("https" .
+   [1 0 0 0 0])
+  ("unpkg" .
+   [0 0 0 0 1])
+  ("latest" .
+   [1 0 0 0 0 0])
+  ("dist" .
+   [1 0 0 0])
+  ("min" .
+   [3 0 0])
+  ("script" .
+   [5 0 0 0 0 0])
+  ("greeting-form" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("submit" .
+   [9 0 0 0 0 0])
+  ("evt" .
+   [2 0 0])
+  ("link" .
+   [4 0 0 0])
+  ("css" .
+   [3 0 0])
+  ("white" .
+   [8 0 0 0 0])
+  ("none" .
+   [7 0 0 0])
+  ("div" .
+   [19 0 0])
+  ("h1" .
+   [2 0])
+  ("teal" .
+   [1 0 0 0])
+  ("bold" .
+   [3 0 0 0])
+  ("center" .
+   [9 0 0 0 0 0])
+  ("display" .
+   [13 0 1 3 0 0 0])
+  ("-webkit-flex" .
+   [0 0 0 1 1 0 0 0 0 0 0 0])
+  ("background-color" .
+   [1 0 0 0 1 0 0 2 1 0 1 0 0 0 0 0])
+  ("100px" .
+   [1 0 0 0 0])
+  ("rtl" .
+   [1 0 0])
+  ("ltr" .
+   [1 0 0])
+  ("row-reverse" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("flex-end" .
+   [1 0 0 0 0 0 0 0])
+  ("stretch" .
+   [0 0 0 0 1 0 0])
+  ("uppercase" .
+   [0 0 0 1 0 0 0 0 0])
+  ("font-weight" .
+   [1 0 0 0 0 0 0 0 1 0 0])
+  ("500" .
+   [1 0 0])
+  ("menu" .
+   [5 0 0 0])
+  ("border-box" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("ease" .
+   [1 0 0 0])
+  ("inline-block" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("li" .
+   [3 0])
+  ("href" .
+   [4 0 0 0])
+  ("black" .
+   [2 0 0 0 0])
+  ("serif" .
+   [1 0 0 1 0])
+  ("sans-serif" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("They" .
+   [1 0 0 0])
+  ("would" .
+   [1 0 0 0 0])
+  ("BFBFBF" .
+   [1 0 0 0 0 0])
+  ("ace_identifier" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("ace_keyword" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("6CFCFE" .
+   [1 0 0 0 0 0])
+  ("The" .
+   [1 0 0])
+  ("---" .
+   [3 0 0])
+  ("relative" .
+   [1 0 1 0 0 0 0 0])
+  ("title-image" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("position" .
+   [1 0 0 0 0 0 0 0])
+  ("absolute" .
+   [0 0 1 0 0 0 0 0])
+  ("right" .
+   [4 0 0 0 0])
+  ("cursive" .
+   [0 0 0 1 0 0 1])
+  ("font-family" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("FileUpload" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("gulp" .
+   [22 0 0 0])
+  ("task" .
+   [5 0 0 0])
+  ("jsFiles" .
+   [3 0 0 0 0 0 1])
+  ("concat" .
+   [6 0 0 0 0 0])
+  ("pipe" .
+   [16 0 0 0])
+  ("jsDest" .
+   [2 0 0 0 0 0])
+  ("rename" .
+   [1 0 0 0 0 0])
+  ("uglify" .
+   [0 0 0 1 0 0])
+  ("dest" .
+   [4 0 0 0])
+  ("src" .
+   [6 0 0])
+  ("jshint" .
+   [2 0 0 0 0 0])
+  ("reporter" .
+   [1 0 0 0 0 0 0 0])
+  ("jslint" .
+   [1 0 0 0 0 0])
+  ("eslint" .
+   [2 0 0 0 0 1])
+  ("cssLocal" .
+   [2 0 0 0 0 0 0 0])
+  ("spent" .
+   [2 0 0 0 0])
+  ("comment" .
+   [1 0 0 0 0 0 0])
+  ("name" .
+   [9 0 0 0])
+  ("ingredient" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("text-darken-4" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0])
+  ("container" .
+   [9 0 0 0 0 0 0 0 0])
+  ("row" .
+   [34 0 0])
+  ("col" .
+   [6 0 0])
+  ("m6" .
+   [1 0])
+  ("Quantity" .
+   [0 0 0 0 1 0 0 0])
+  ("ul" .
+   [1 0])
+  ("card-content" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Ingredients" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("s12" .
+   [2 0 0])
+  ("flow-text" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ess-default-style" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("input$integer" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pump" .
+   [1 0 0 0])
+  ("g" .
+   [1])
+  ("magic-mode-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("js-mode" .
+   [1 0 0 0 0 0 0])
+  ("&" .
+   [3])
+  ("inherit" .
+   [2 0 0 0 0 0 0])
+  ("bg-range-variant" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("$parent" .
+   [3 0 0 0 0 0 0])
+  ("$color" .
+   [6 0 0 0 0 0])
+  ("background" .
+   [1 0 1 0 0 0 0 0 0 0])
+  ("$dark" .
+   [1 0 0 0 0])
+  ("$map-get" .
+   [1 0 0 0 0 0 0 0])
+  ("map-get" .
+   [1 0 0 0 0 0 0])
+  ("$greys" .
+   [1 0 0 0 0 0])
+  ("$gray-500" .
+   [3 0 0 0 0 0 0 0 0])
+  ("gray" .
+   [1 0 0 0])
+  ("$gray-300" .
+   [3 0 0 0 0 0 0 0 0])
+  ("background-image" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("bg-variant" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("$map" .
+   [2 0 0 0])
+  ("mixin" .
+   [1 0 0 0 0])
+  ("$variant" .
+   [1 0 0 0 0 0 0 0])
+  ("bg-lighten" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("transparent" .
+   [0 0 0 2 0 0 1 0 0 0 0])
+  ("..." .
+   [17 0 0])
+  ("data" .
+   [81 0 0 0])
+  ("content" .
+   [4 0 0 0 0 0 0])
+  ("getId" .
+   [2 0 0 0 0])
+  ("el" .
+   [113 0])
+  ("id" .
+   [12 0])
+  ("callback" .
+   [8 0 0 0 0 0 0 0])
+  ("unsubscribe" .
+   [0 0 0 0 1 2 0 0 0 0 0])
+  ("off" .
+   [1 0 0])
+  ("renderValue" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("append" .
+   [20 0 0 1 0 0])
+  ("map" .
+   [39 0 0])
+  ("Shiny" .
+   [8 0 0 0 0])
+  ("inputBindings" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("register" .
+   [4 0 0 0 0 0 0 0])
+  ("listGroupInput" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("listGroupInputBinding" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("extend" .
+   [1 0 0 0 0 0])
+  ("let" .
+   [57 0 0])
+  ("OutputBinding" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("listGroupOutputBinding" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0])
+  ("scope" .
+   [5 0 0 0 0])
+  ("outputBindings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("interactive" .
+   [5 0 0 0 0 0 0 0 0 0 1])
+  ("function" .
+   [70 0 0 0 1 0 1 0])
+  ("env" .
+   [3 0 0])
+  ("parent.frame" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("quote" .
+   [1 0 0 0 0])
+  ("shiny::exprToFunction" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("list" .
+   [14 0 0 0])
+  ("shinyApp" .
+   [10 0 0 0 0 0 0 0])
+  ("output" .
+   [8 0 0 0 0 0])
+  ("aw-background" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nil" .
+   [6 0 0])
+  ("rlang" .
+   [1 0 0 0 0])
+  ("dots_values" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("args" .
+   [2 0 0 0])
+  ("getDefaultReactiveDomain" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2])
+  ("dots_list" .
+   [1 0 0 0 0 0 0 0 0])
+  ("VALIDATE" .
+   [1 0 0 0 0 0 0 0])
+  ("shiny" .
+   [1 0 0 0 1])
+  ("shiny::registerInputHandler" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("value" .
+   [79 0 0 0 0])
+  ("getType" .
+   [3 0 0 0 0 0 0])
+  ("SELECTED" .
+   [1 0 0 0 0 0 0 0])
+  ("getValue" .
+   [13 0 0 0 0 0 1 0])
+  ("Link" .
+   [0 0 0 1])
+  ("linkInputBindng" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("dull" .
+   [1 0 0 0])
+  ("session" .
+   [8 0 0 0 0 0 0])
+  ("margins" .
+   [1 0 0 0 0 0 0])
+  ("dplyr::collapse" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("numberInput" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("return" .
+   [69 0 0 0 0 0])
+  ("is.character" .
+   [8 0 0 0 0 0 0 1 0 0 0 0])
+  ("tagIs" .
+   [1 0 0 0 0])
+  ("tags$img" .
+   [1 0 0 0 0 0 0 0])
+  ("click" .
+   [6 0 0 0 0])
+  ("console" .
+   [34 0 0 0 0 0 0])
+  ("rev-parse" .
+   [1 0 0 0 0 0 0 0 0])
+  ("--git-dir" .
+   [1 0 0 0 0 0 0 0 0])
+  ("/dev/null" .
+   [0 0 0 0 2 0 0 0 0])
+  ("branch" .
+   [3 0 0 0 0 0])
+  ("the" .
+   [2 0 0])
+  ("-n" .
+   [2 0])
+  ("-ne" .
+   [3 0 0])
+  ("config" .
+   [22 0 0 0 0 0])
+  ("enable" .
+   [2 0 0 0 0 0])
+  ("split" .
+   [1 0 0 0 0])
+  ("removeAttribute" .
+   [0 0 0 0 0 1 0 0 0 0 1 0 0 0 0])
+  ("is_date" .
+   [2 0 0 0 0 0 0])
+  ("is_ymd" .
+   [1 0 0 0 0 0])
+  ("paste" .
+   [1 0 0 0 0])
+  ("Document" .
+   [0 0 0 0 0 0 0 1])
+  ("reverse" .
+   [2 0 0 0 0 0 0])
+  ("justify" .
+   [1 0 0 0 0 0 0])
+  ("align" .
+   [2 0 0 0 0])
+  ("wrap" .
+   [1 0 0 0])
+  ("responsive" .
+   [1 0 0 0 0 0 2 0 0 3])
+  ("check" .
+   [1 0 0 0 0])
+  ("possible" .
+   [1 0 0 0 0 0 0 1])
+  ("for" .
+   [3 0 0])
+  ("names" .
+   [5 0 0 0 0])
+  ("s" .
+   [4])
+  ("call" .
+   [7 0 0 0])
+  ("sys.call" .
+   [5 0 0 0 0 0 0 0])
+  ("as.character" .
+   [4 0 0 0 0 0 0 0 0 0 0 1])
+  ("prefix" .
+   [2 0 0 0 0 0])
+  ("argument" .
+   [1 0 0 0 1 0 0 0])
+  ("is_list" .
+   [1 0 0 0 0 0 0])
+  ("createResponsiveClasses" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("this" .
+   [24 0 0 0])
+  ("parent" .
+   [1 0 0 0 0 0])
+  ("as.list" .
+   [4 0 0 0 0 0 0])
+  ("is.list" .
+   [2 0 0 0 0 0 0])
+  ("points" .
+   [1 0 0 0 0 0])
+  ("names2" .
+   [2 0 0 0 0 0])
+  ("lapply" .
+   [7 0 0 0 0 0])
+  ("checkResponsiveArgument" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("createResponsives" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("dir" .
+   [4 0 0])
+  ("rev" .
+   [1 0 0])
+  ("then" .
+   [1 0 0 0])
+  ("log" .
+   [23 0 0])
+  ("typescript" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("textarea" .
+   [5 0 0 0 0 1 0 0])
+  ("removeChild" .
+   [2 0 0 0 0 0 1 1 0 0 0])
+  ("activated" .
+   [4 0 0 0 0 0 0 0 0])
+  ("state" .
+   [3 0 0 0 0])
+  ("editing" .
+   [31 0 0 0 0 0 0])
+  ("val" .
+   [1 0 0])
+  ("setAttribute" .
+   [0 0 0 0 0 1 1 0 0 0 0 0])
+  ("closeEditing" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("add" .
+   [18 0 0])
+  ("firstChild" .
+   [6 0 0 1 0 0 0 0 0 2])
+  ("selectionStart" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("selectionEnd" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("startEditing" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("on" .
+   [6 0])
+  ("stopEditing" .
+   [2 0 0 0 0 0 1 0 0 0 0])
+  ("matches" .
+   [4 0 0 0 0 0 0])
+  ("innerHTML" .
+   [0 0 0 2 0 0 1 0 3])
+  ("inputs" .
+   [5 0 0 0 0 0])
+  ("clearEditing" .
+   [1 0 0 0 0 0 0 0 0 1 0 0])
+  ("prev" .
+   [3 0 0 0])
+  ("parse" .
+   [3 0 0 0 0])
+  ("getElementsByTagName" .
+   [0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("td" .
+   [2 0])
+  ("cell" .
+   [1 0 0 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("after" .
+   [3 0 0 0 0])
+  ("pages" .
+   [7 0 0 0 0])
+  ("querySelectorAll" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("Type" .
+   [1 0 0 0])
+  ("chabudai" .
+   [1 0 0 0 0 0 0 0])
+  ("box-shadow" .
+   [1 0 0 1 0 0 0 0 0 0])
+  ("outline" .
+   [1 0 0 0 0 0 0])
+  ("border-radius" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("true" .
+   [9 0 0 0])
+  ("array" .
+   [2 0 0 0 0])
+  ("acc" .
+   [2 0 0])
+  ("Events" .
+   [1 0 0 0 0 0])
+  ("counter" .
+   [2 0 0 0 0 0 0])
+  ("getAttribute" .
+   [2 0 0 0 1 1 1 0 0 0 0 0])
+  ("nested" .
+   [6 0 0 0 0 1])
+  ("Species" .
+   [1 0 0 0 1 0 0])
+  ("species" .
+   [5 0 0 0 0 0 0])
+  ("width" .
+   [5 0 0 0 0])
+  ("countries" .
+   [3 0 0 0 1 0 0 0 1])
+  ("my_data" .
+   [3 0 0 0 0 0 0])
+  ("uniq" .
+   [1 0 0 0])
+  ("continents" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("this_continent" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("nested_data" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("continent" .
+   [2 0 0 0 0 0 0 0 1])
+  ("cont" .
+   [3 0 0 0])
+  ("country" .
+   [5 0 0 0 0 0 0])
+  ("country_rows" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("insts" .
+   [1 0 0 0 0])
+  ("onlyUnique" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("magic-" .
+   [0 0 0 0 0 1])
+  ("Request" .
+   [0 0 0 0 1 0 0])
+  ("Response" .
+   [1 0 0 0 0 0 0 0])
+  ("dataByCountyByYear" .
+   [0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("counties" .
+   [1 0 0 0 0 0 0 0])
+  ("features" .
+   [1 0 0 0 0 0 0 0])
+  ("countyShapes" .
+   [1 0 0 0 0 0 1 1 0 0 0 0])
+  ("county" .
+   [3 0 0 0 0 0])
+  ("property" .
+   [2 0 0 1 4 0 1 8])
+  ("properties" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("years" .
+   [10 0 0 0 0])
+  ("Object" .
+   [1 0 0 0 0 0])
+  ("FFF" .
+   [1 0 0])
+  ("dropdown" .
+   [6 0 0 0 0 0 0 0])
+  ("selectAll" .
+   [2 0 0 0 0 0 0 0 0])
+  ("variable" .
+   [18 0 0 0 0 0 0 0])
+  ("enter" .
+   [2 0 0 0 0])
+  ("attr" .
+   [8 0 0 0])
+  ("update" .
+   [2 0 0 0 0 0])
+  ("exit" .
+   [1 0 0 0])
+  ("slider" .
+   [3 0 0 0 0 0])
+  ("change" .
+   [2 0 0 0 0 0])
+  ("dropyear" .
+   [4 0 0 0 0 0 0 0])
+  ("dropvar" .
+   [5 0 0 0 0 0 1])
+  ("year" .
+   [3 0 0 0])
+  ("fe9929" .
+   [1 0 0 0 0 0])
+  ("rgb" .
+   [1 0 0])
+  ("darker" .
+   [1 0 0 0 0 0])
+  ("brighter" .
+   [1 0 0 0 0 0 0 0])
+  ("getRandomInt" .
+   [0 0 0 0 2 1 1 1 0 0 0 0])
+  ("_color" .
+   [5 0 0 0 0 0])
+  ("clicked" .
+   [1 0 0 0 0 0 0])
+  ("var" .
+   [4 0 0])
+  ("centered" .
+   [4 0 0 0 0 0 0 1])
+  ("svg" .
+   [3 0 0])
+  ("reset" .
+   [3 0 0 0 0])
+  ("stroke" .
+   [3 0 0 0 0 0])
+  ("flex" .
+   [5 0 0 0])
+  ("shadows" .
+   [1 0 0 0 0 0 0])
+  ("show" .
+   [3 0 1 0])
+  ("stylesheet" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("bar" .
+   [3 0 0])
+  ("is_tag" .
+   [4 0 0 0 0 0])
+  ("tags$h4" .
+   [1 0 0 0 0 0 0])
+  ("alert" .
+   [1 0 0 0 0])
+  ("map_chr" .
+   [2 0 0 0 0 0 0])
+  ("fam_map" .
+   [1 0 0 0 0 0 0])
+  ("binding" .
+   [2 0 0 0 0 0 0])
+  ("base$children" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("attribs" .
+   [3 0 0 0 0 0 0])
+  ("$attribs$class" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("base$attribs$" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("base$attribs$active" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("base" .
+   [1 0 0 0])
+  ("tagAddClass" .
+   [0 0 0 0 1 0 0 0 0 0 1])
+  ("tags" .
+   [3 0 0 0])
+  ("yonder" .
+   [8 0 0 0 0 0])
+  ("preventDefault" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("$attribs$href" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("toggle" .
+   [3 0 0 0 0 0])
+  ("tag_registry" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("getOption" .
+   [0 0 0 0 0 0 0 0 1])
+  ("install.packages" .
+   [3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
+  ("LICENSE" .
+   [6 0 2 3 2 0 0])
+  ("header" .
+   [8 0 0 0 0 0])
+  ("license" .
+   [8 0 0 0 0 0 0])
+  ("Ion.rangeSlider" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("jQuery" .
+   [1 0 0 0 0 1])
+  ("popper" .
+   [1 0 0 0 0 0])
+  ("components" .
+   [5 0 0 0 0 0 1 0 0 0])
+  ("FileSaver.js" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("_VALUES" .
+   [0 0 2 2 0 0 0])
+  ("self" .
+   [2 0 0 0])
+  ("transform" .
+   [1 0 0 0 0 0 0 0 0])
+  ("gsub" .
+   [5 0 0 0])
+  ("checkbar" .
+   [1 0 0 0 0 0 0 0])
+  ("tags$div" .
+   [1 0 0 0 0 0 0 0])
+  ("str" .
+   [11 0 0])
+  ("regexec" .
+   [1 0 0 0 0 0 0])
+  ("regmatches" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("child" .
+   [22 0 0 0 0])
+  ("validateInput" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pkgload::pkg_env" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("block" .
+   [18 0 0 0 0])
+  ("new.env" .
+   [1 0 0 0 0 0 0])
+  ("pkgload::load_code" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pkgload::load_all" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tokens" .
+   [11 0 0 0 0 0])
+  ("browse" .
+   [0 0 0 1 0 0])
+  ("tokens_exampled" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("tidyr::nest" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("pmap" .
+   [3 0 0 0])
+  ("tokens_clean_values" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tokens_sectioned" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("block_file" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("block_path" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("tolower" .
+   [1 0 0 0 0 0 0])
+  ("sourcetools::read" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sourcetools::read_lines" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set" .
+   [2 0 0])
+  ("path_config" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("fs::path_real" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("path_file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("b" .
+   [1])
+  ("config_baseurl" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sub" .
+   [1 0 0])
+  ("pkg_name" .
+   [1 0 0 0 0 0 0 0])
+  ("color-yiq" .
+   [0 0 0 0 0 0 2 0 0])
+  ("modal" .
+   [1 0 0 0 0])
+  ("regex" .
+   [1 0 0 0 0])
+  ("pattern" .
+   [4 0 0 0 0 0 0])
+  ("btn" .
+   [1 0 0])
+  ("invert" .
+   [4 0 0 0 0 0])
+  ("indexOf" .
+   [1 0 0 0 0 0 0])
+  ("unname" .
+   [0 0 0 1 0 0])
+  ("match" .
+   [1 0 0 0 0])
+  ("out" .
+   [0 0 1])
+  ("not" .
+   [2 0 0])
+  ("event" .
+   [18 0 0 0 1])
+  ("currentTarget" .
+   [0 0 0 2 1 0 1 0 1 0 0 0 0])
+  ("propagate" .
+   [1 0 0 0 0 0 0 0 0])
+  ("readr::read_log" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("readr::read_csv" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("fs::path_package" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("rprojroot" .
+   [0 0 0 0 0 1 0 0 0])
+  ("rprojroot::find_root" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("rprojroot::has_dir" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("rprojroot::find_package_root_file" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("dplyr::glimpse" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("census_1" .
+   [2 0 0 0 0 0 0 0])
+  ("dplyr::rename" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("census" .
+   [1 0 0 0 0 1])
+  ("chr_class" .
+   [1 0 0 0 0 0 0 0 0])
+  ("emptyenv" .
+   [0 0 0 0 0 0 0 1])
+  ("flags$deps_attached" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("flag_attached" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("attach" .
+   [1 0 0 0 0 0])
+  ("flags$deps_detached" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("on.exit" .
+   [0 0 1 0 0 0 0])
+  ("htmltools::attachDependencies" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("isTRUE" .
+   [3 0 0 0 0 0])
+  ("dependency_yonder" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("try_attach" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("deps_attached" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("is_targeter" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("actions" .
+   [6 0 0 0 0 0 0])
+  ("assert_id" .
+   [6 0 0 0 0 0 0 0 0])
+  ("element" .
+   [23 0 0 0 0 0 1])
+  ("getPluginAttributes" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MENU" .
+   [3 0 0 0])
+  ("Selector" .
+   [11 0 0 0 0 1 0 1])
+  ("ClassName" .
+   [3 0 1 1 7 2 2 0 0])
+  ("INPUT" .
+   [4 0 8 2 2])
+  ("CHILD" .
+   [5 0 0 1 1])
+  ("SELECTOR" .
+   [1 0 0 0 0 0 0 0])
+  ("hide" .
+   [1 0 0 0])
+  ("bs" .
+   [2 0])
+  ("Event" .
+   [6 0 0 0 0])
+  ("CLOSE" .
+   [2 0 0 0 0])
+  ("PARENT_MENU" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("getData" .
+   [1 0 0 0 1 0 0])
+  ("subscribe" .
+   [0 0 0 1 0 1 0 0 0])
+  ("receiveMessage" .
+   [0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("ShinyInterface" .
+   [0 0 0 0 0 0 0 1 0 0 1 0 0 0])
+  ("NavInput" .
+   [0 0 0 0 0 1 0 0])
+  ("document" .
+   [1 0 0 2 1 0 0 0])
+  ("CLICK" .
+   [2 0 0 0 0])
+  ("PARENT_CHILD" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("PARENT" .
+   [0 0 1 0 0 0])
+  ("isNode" .
+   [3 0 0 0 0 0])
+  ("PARENT_ITEM" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("roxygen2" .
+   [2 0 0 0 0 0 0 1])
+  ("roxygen2::tag_markdown" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("roxygen2::tag_code" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eval" .
+   [1 0 0 0])
+  ("x$val" .
+   [2 0 0 0 0])
+  ("x$output" .
+   [1 0 0 0 0 0 0 0])
+  ("roxygen2::rd_section" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("x$value$code" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("x$value$output" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Demo" .
+   [0 0 0 1])
+  ("base_path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("results" .
+   [1 0 0 0 0 0 0])
+  ("roxygen2::block_get_tags" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("elementValues" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("seq" .
+   [1 0 0])
+  ("progress" .
+   [10 0 0 0 0 0 0 0])
+  ("_element" .
+   [3 0 0 0 1 0 1 0])
+  ("XMLHttpRequest" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("req" .
+   [4 0 0])
+  ("i" .
+   [3])
+  ("loadstart" .
+   [1 0 0 0 0 0 0 0 0])
+  ("PROGRESS" .
+   [1 0 1 0 0 0 0 4])
+  ("PROGRESS_BAR" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("animated" .
+   [1 0 0 0 0 0 0 0])
+  ("PROGRESS_ANIMATED" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("open" .
+   [1 0 0 0])
+  ("shinyapp" .
+   [1 0 0 0 0 0 0 0])
+  ("makeRequest" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("uploadInit" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("fileInfo" .
+   [0 0 0 0 0 0 0 1])
+  ("uri" .
+   [2 0 0])
+  ("final" .
+   [1 0 0 0 0])
+  ("post" .
+   [1 0 0 0])
+  ("jobId" .
+   [1 0 0 0 0])
+  ("FormInput" .
+   [2 0 0 0 0 0 1 0 0])
+  ("_map" .
+   [3 0 0 0])
+  ("split-height-threshold" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("split-width-threshold" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("inhibit-startup-screen" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("local_profile" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("local" .
+   [1 0 0 0 0])
+  ("webpage" .
+   [1 0 0 0 0 0 0])
+  ("stopwords::" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("packageVersion" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("stopwords::stopwords" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("httr::content" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("stringr::str_split" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("_debounce" .
+   [3 0 0 0 0 0 0 0 0])
+  ("POLICY" .
+   [2 0 1 0 1 0])
+  ("DELAY" .
+   [3 0 0 1 0])
+  ("getRatePolicy" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("RangeInput" .
+   [1 0 0 0 0 0 0 1 0 0])
+  ("radiobarInput" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("updateRadioInput" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("selected" .
+   [2 0 0 0 0 0 0 0])
+  ("store" .
+   [1 0 0 0 0])
+  ("utils" .
+   [1 0 0 0 0])
+  ("debounce" .
+   [1 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [3 0 0 0 0 0 0 0])
+  ("R-mode-hook" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("lambda" .
+   [4 0 0 0 0 1])
+  ("font-lock-add-keywords" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("font-lock-builtin-face" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("insert" .
+   [1 0 0 0 0 0])
+  ("defun" .
+   [2 0 0 0 0])
+  ("neotree" .
+   [0 0 0 0 0 0 1])
+  ("call-interactively" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("other-window" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("neotree-startup" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("renv::update" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("leuven-theme" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  (":ensure" .
+   [1 0 0 0 0 0 0])
+  (":defer" .
+   [1 0 0 0 0 0])
+  ("leuven" .
+   [1 0 0 0 0 0])
+  ("whitespace" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("face" .
+   [2 0 0 0])
+  ("global-whitespace-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("global-aggressive-indent-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("display-graphic-p" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-confirm-create-file" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-confirm-create-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-confirm-delete-file" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("y-or-n-p" .
+   [0 0 0 0 0 0 0 1])
+  ("neo-filepath-sort-function" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("neo-sort-hidden-last" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("shortened-path" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("abbreviate-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("seq-reduce" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("seq-map" .
+   [1 0 0 0 0 0 0])
+  ("substring" .
+   [2 0 0 0 0 0 0 0 0])
+  ("while" .
+   [1 0 0 0 0])
+  ("cdr" .
+   [1 0 0])
+  ("shorter-path" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("seq-filter" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("equal" .
+   [4 0 0 0 0])
+  ("let*" .
+   [1 0 0 0])
+  ("seq-take" .
+   [1 0 0 0 0 0 0 0])
+  ("1-" .
+   [1 0])
+  ("-1" .
+   [3 0])
+  ("seq-subseq" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("elt" .
+   [1 0 0])
+  ("last" .
+   [2 0 0 0])
+  ("car" .
+   [2 0 0])
+  ("butlast" .
+   [1 0 0 0 0 0 0])
+  ("text-align" .
+   [1 0 0 0 1 1 0 0 0 0])
+  ("inline" .
+   [0 0 0 0 0 1])
+  ("flex-direction" .
+   [0 0 0 0 1 0 1 2 0 0 0 0 0 0])
+  (".section" .
+   [1 0 0 0 0 0 0 0])
+  ("sticky" .
+   [2 0 0 0 0 0])
+  ("@import" .
+   [1 0 0 0 0 0 0])
+  ("h3" .
+   [1 0])
+  ("img" .
+   [2 0 0])
+  ("padding-left" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  (".section__bar" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  (".top__title" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("justify-content" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("space-between" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("htmltools" .
+   [1 0 0 0 0 0 0 0 0])))

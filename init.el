@@ -32,7 +32,8 @@ There are two things you can do about this warning:
 ;;
 ;; EMACS CONFIGURATIONS
 ;;
-(setq linum-format "%4d \u2502 ")
+(setq linum-format "%4d ") ;; \u2503 ")
+(set-face-attribute 'line-number nil :background "gray96" :foreground "gray42")
 (setq make-backup-files nil)
 (setq visible-bell t)
 (setq ring-bell-function 'ignore)
@@ -231,9 +232,9 @@ There are two things you can do about this warning:
 ;;
 ;; WHITESPACE
 ;;
-(require 'whitespace)
-(setq whitespace-style '(face empty tabs lines-tail trailing))
-(global-whitespace-mode t)
+;; (require 'whitespace)
+;; (setq whitespace-style '(face empty tabs lines-tail trailing))
+;; (global-whitespace-mode t)
 
 ;;
 ;; AGGRESSIVE INDENT
@@ -253,16 +254,15 @@ There are two things you can do about this warning:
  '(ansi-color-names-vector
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
  '(custom-safe-themes
-   (quote
-    ("672bb062b9c92e62d7c370897b131729c3f7fd8e8de71fc00d70c5081c80048c" "6731049cee8f7cbd542d7b3e1c551f3fab716a92119bd7c77f0bd1ef20849fb8" default)))
+   '("a339f231e63aab2a17740e5b3965469e8c0b85eccdfb1f9dbd58a30bdad8562b" "777a3a89c0b7436e37f6fa8f350cbbff80bcc1255f0c16ab7c1e82041b06fccd" "672bb062b9c92e62d7c370897b131729c3f7fd8e8de71fc00d70c5081c80048c" "6731049cee8f7cbd542d7b3e1c551f3fab716a92119bd7c77f0bd1ef20849fb8" default))
  '(hl-sexp-background-color "#efebe9")
  '(inhibit-startup-screen t)
+ '(ns-use-srgb-colorspace nil)
  '(package-selected-packages
-   (quote
-    (beacon leuven-theme twilight-bright-theme circadian poly-R poly-markdown polymode nodejs-repl ag xref-js2 edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons))))
+   '(beacon leuven-theme twilight-bright-theme circadian poly-R poly-markdown polymode nodejs-repl ag xref-js2 edit-indirect ng2-mode doom-themes js2-mode typescript ## lorem-ipsum typescript-mode symon ace-window wrap-region web-mode use-package neotree markdown-mode magit helm go-autocomplete font-lock+ exec-path-from-shell ess dracula-theme color-theme-modern all-the-icons)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#FFFFFF" :foreground "#333333" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Fira Code")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 160 :width normal :foundry "nil" :family "Fira Code")))))

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "symon" "symon.el" (23517 45947 519124 529000))
+;;;### (autoloads nil "symon" "symon.el" (0 0 0 0))
 ;;; Generated autoloads from symon.el
 
 (defvar symon-mode nil "\
@@ -20,6 +20,12 @@ or call the function `symon-mode'.")
 tiny graphical system monitor
 
 \(fn &optional ARG)" t nil)
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "symon" '("symon-" "define-symon-monitor")))
+
+;;;***
+
+;;;### (autoloads nil nil ("symon-pkg.el") (0 0 0 0))
 
 ;;;***
 
